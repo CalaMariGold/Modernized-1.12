@@ -1,0 +1,16 @@
+
+/logs
+knownkeys.txt
+dropt.log
+minecraftinstance.json
+/crash-reports
+crafttweaker.log
+.curseclient
+/vintagefix
+usernamecache.json
+usercache.json
+/saves
+optionsof.txt
+options.txt
+/mods/memory_repo
+mods/OptiFine_1.12.2_HD_U_G6_pre1.jar
