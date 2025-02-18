@@ -4,6 +4,12 @@
     This script demonstrates various event handling capabilities in CraftTweaker.
     All examples can be uncommented and used directly in your modpack.
 
+    Relevant Documentation Links:
+    - Events Overview: https://docs.blamejared.com/1.12/en/Vanilla/Events/IEventManager/
+    - Player Data: https://docs.blamejared.com/1.12/en/Vanilla/Players/IPlayer
+    - Entity Data: https://docs.blamejared.com/1.12/en/Vanilla/Entities/IEntity/
+    - Block Data: https://docs.blamejared.com/1.12/en/Vanilla/Blocks/IBlock/
+
     To use this script, remove ".disabled" from the file name.
 */
 
@@ -31,6 +37,10 @@ import mods.contenttweaker.Commands;
     - Stores a persistent flag in player data
     - Sends a welcome message and gives starter items
     - Only triggers once per player
+
+    Documentation:
+    - Player Data: https://docs.blamejared.com/1.12/en/Vanilla/Players/IPlayer
+    - Player Events: https://docs.blamejared.com/1.12/en/Vanilla/Events/Events/PlayerLoggedIn/
 */
 events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
 
@@ -82,6 +92,10 @@ events.onPlayerRespawn(function(event as PlayerRespawnEvent) {
     - Shows warning messages when trying to mine certain blocks with wrong tools
     - Plays a sound to alert the player
     - Simple to customize for any block/tool combination
+
+    Documentation:
+    - Block Events: https://docs.blamejared.com/1.12/en/Vanilla/Events/Events/PlayerLeftClickBlock/
+    - Commands: https://docs.blamejared.com/1.12/en/Mods/ContentTweaker/Vanilla/Advanced_Functionality/Commands/
 */
 events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftClickBlockEvent) {
     if(event.entity.world.isRemote()) {
@@ -117,6 +131,10 @@ events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftCli
     Delayed Event System
     - Executes actions after a specified delay
     - Can be used for quest timers, delayed rewards, etc.
+
+    Documentation:
+    - World: https://docs.blamejared.com/1.12/en/Vanilla/World/IWorld/
+    - Server: https://docs.blamejared.com/1.12/en/Vanilla/Game/IServer/
 */
 events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
     if(event.entity.world.isRemote()) {
@@ -151,6 +169,10 @@ events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
     - Awards stages based on player achievements
     - Includes boss kill detection
     - Supports multiple progression paths
+
+    Documentation:
+    - Entity Events: https://docs.blamejared.com/1.12/en/Vanilla/Events/Events/EntityLivingDeath/
+    - GameStages: https://docs.blamejared.com/1.12/en/Mods/GameStages/GameStages/
 */
 events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
     if(event.entity.world.isRemote()) {

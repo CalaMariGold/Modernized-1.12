@@ -1,0 +1,228 @@
+#loader crafttweaker reloadable
+/* 
+    Modernized 1.12 - ZenScript Basics Tutorial
+    This script introduces the basic concepts of CraftTweaker and ZenScript scripting.
+    All examples can be uncommented and used directly in your modpack.
+
+    Documentation: https://docs.blamejared.com/1.12/en/Getting_Started/
+*/
+
+// ================ Basic Concepts ================
+
+/*
+    1. Scripts are stored in the /scripts folder
+    2. Files must have the .zs extension
+    3. Scripts run in "top-down" order
+    4. Scripts need to be on both client and server
+    5. Most changes can be reloaded in-game using /ct reload
+    6. Include "#loader crafttweaker reloadable" (without quotes) at the top of the script to enable reloading
+*/
+
+// ================ Imports ================
+
+/*
+    Imports must be at the TOP of your script!
+    Each script needs its own imports.
+    
+    Documentation: https://docs.blamejared.com/1.12/en/AdvancedFunctions/Import/
+*/
+
+// Basic imports
+import crafttweaker.item.IItemStack;           // For item manipulation
+import crafttweaker.oredict.IOreDictEntry;     // For ore dictionary
+import crafttweaker.data.IData;                // For NBT/data manipulation
+
+// Mod-specific imports
+import mods.jei.JEI;                           // Import entire JEI package
+
+// Import specific functions
+import mods.jei.JEI.removeAndHide;             // Import single function
+import mods.jei.JEI.hide;                      // Import another function
+
+// Import with custom names (useful for avoiding conflicts)
+import mods.jei.JEI.removeAndHide as rh;       // Function now accessible as 'rh'
+import mods.jei.JEI.hide as hideItem;          // Function now accessible as 'hideItem'
+
+// Example usage of imports
+val items = [<minecraft:dirt>, <minecraft:stone>] as IItemStack[];
+rh(<minecraft:wooden_shovel>);                        // Using renamed import
+hideItem(<minecraft:emerald>);                  // Using renamed import
+
+// ================ Printing & Comments ================
+
+// Single-line comments start with //
+# Alternative single-line comments start with #
+
+/* Multi-line comments
+   can span multiple
+   lines like this */
+
+// Basic printing - useful for debugging
+print("Hello World!");                     // Prints to crafttweaker.log
+print("Multiple values: " + 123 + " " + true); // Can print numbers and booleans
+
+// ================ Variables & Data Types ================
+
+// Variable declaration - 'val' is immutable, 'var' is mutable
+val constant = "This can't be changed";
+var mutable = "This can be changed";
+mutable = "See? Changed!";
+
+// Basic data types
+val myString = "Text";              // String
+val myNumber = 42;                  // Integer
+val myDecimal = 3.14;              // Double
+val myBoolean = true;              // Boolean
+val myNull = null;                 // Null
+
+// Arrays
+val myArray = ["first", "second", "third"] as string[];
+print(myArray[0]);                 // Prints "first"
+
+// Associative Arrays (Maps)
+val myMap = {
+    "key1": "value1",
+    "key2": "value2"
+} as string[string];
+
+// ================ Type Casting ================
+
+/*
+    CraftTweaker requires explicit casting in many cases.
+    Use the 'as' keyword to cast variables to specific types.
+*/
+
+// Basic casting
+val number = "42" as int;              // String to int
+val decimal = 42 as double;            // Int to double
+
+// Minecraft-specific casting
+val items = [<minecraft:dirt>, <minecraft:stone>] as IItemStack[];    // Array of items
+val ingredient = <minecraft:diamond> as IIngredient;                  // Item to ingredient
+val liquidStack = <liquid:water> as ILiquidStack;                    // Liquid reference
+
+// ================ Global & Static Variables ================
+
+/*
+    Global variables are accessible from any script
+    Static variables are script-bound but can be referenced from other scripts
+    Both must be declared at the script level (not inside functions)
+    Both are immutable (cannot be changed after declaration)
+    
+    Documentation: https://docs.blamejared.com/1.12/en/AdvancedFunctions/Global_Static_Variables/
+*/
+
+// Global variables (accessible everywhere)
+global commonItems as IItemStack[] = [
+    <minecraft:dirt>,
+    <minecraft:stone>,
+    <minecraft:gravel>
+];
+
+// Static variables (script-bound, but referenceable)
+static toolMaterials as string[] = [
+    "wood",
+    "stone",
+    "iron",
+    "gold",
+    "diamond"
+];
+
+// Using global variables in functions
+function isCommonItem(item as IItemStack) as bool {
+    return commonItems has item;    // 'has' checks if array contains item
+}
+
+// Using static variables (can be referenced from other scripts as 'scripting_basics.toolMaterials')
+function isValidMaterial(material as string) as bool {
+    return toolMaterials has material;
+}
+
+// Best practices for globals
+global CRAFTING_ENABLED as bool = true;     // Use UPPERCASE for global constants
+global DEFAULT_STACK_SIZE as int = 64;      // Document important globals
+
+// ================ Minecraft-Specific Types ================
+
+// Item references use angle brackets
+val diamond = <minecraft:diamond>;
+val ironIngot = <minecraft:iron_ingot>;
+
+// Items with metadata (damage values)
+val wool = <minecraft:wool:1>;     // Orange wool (metadata 1)
+val anyWool = <minecraft:wool:*>;  // Any wool color
+
+// Ore Dictionary references
+val plankWood = <ore:plankWood>;   // Any wooden plank
+val ingotIron = <ore:ingotIron>;   // Any iron ingot
+
+// ================ Functions ================
+
+// Basic function declaration
+function addNumbers(a as int, b as int) as int {
+    return a + b;
+}
+
+// Function with multiple parameters and types
+function createGreeting(name as string, age as int) as string {
+    return "Hello, " + name + "! You are " + age + " years old.";
+}
+
+// Using the functions
+print(addNumbers(5, 3));                    // Prints 8
+print(createGreeting("Player", 25));        // Prints greeting
+
+// ================ Conditional Statements ================
+
+var playerLevel = 10;
+
+// If statements
+if (playerLevel >= 10) {
+    print("Player is high level");
+} else if (playerLevel >= 5) {
+    print("Player is mid level");
+} else {
+    print("Player is low level");
+}
+
+// ================ Loops ================
+
+// For loop with array
+for item in myArray {
+    print(item);
+}
+
+// For loop with range
+for i in 0 to 5 {
+    print(i);
+}
+
+// While loop
+var counter = 0;
+while(counter < 5) {
+    print(counter);
+    counter += 1;
+}
+
+// ================ Best Practices ================
+
+/*
+    1. Always use meaningful variable names
+    2. Comment your code, especially complex logic
+    3. Use functions to avoid code duplication
+    4. Test scripts before deploying
+    5. Check crafttweaker.log for errors
+    6. Use val instead of var when possible
+    7. Keep scripts organized and modular
+*/
+
+// ================ Debugging Tips ================
+
+/*
+    1. Use print() for debugging
+    2. Check crafttweaker.log in minecraft directory
+    3. Use /ct hand to get info about held item
+    4. Use /ct syntax to check script syntax
+    5. Use /ct recipes to view recipe information
+    6. Use /ct blockmaterial to get block info
+*/ 

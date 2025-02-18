@@ -4,6 +4,16 @@
     This script demonstrates various utility features and customizations in CraftTweaker.
     All examples can be uncommented and used directly in your modpack.
 
+    Relevant Documentation Links:
+    - JEI Integration: https://docs.blamejared.com/1.12/en/Mods/JEI/JEI/
+    - Items: https://docs.blamejared.com/1.12/en/Vanilla/Items/IItemStack/
+    - Blocks: https://docs.blamejared.com/1.12/en/Vanilla/Blocks/IBlock/
+    - Block States: https://docs.blamejared.com/1.12/en/Vanilla/Blocks/IBlockState/
+    - Block Properties: https://docs.blamejared.com/1.12/en/Vanilla/Blocks/IBlockDefinition/
+    - Enchantments: https://docs.blamejared.com/1.12/en/Vanilla/Enchantments/IEnchantmentDefinition/
+    - NBT Data: https://docs.blamejared.com/1.12/en/Vanilla/Data/IData/
+
+
     To use this script, remove ".disabled" from the file name.
 */
 
@@ -22,6 +32,9 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
     - Hide/show specific crafting categories
     - Add custom descriptions
     - Manage information display
+
+    Documentation:
+    - JEI: https://docs.blamejared.com/1.12/en/Mods/JEI/JEI
 */
 
 // Hide entire crafting categories
@@ -48,6 +61,9 @@ JEI.addDescription([<minecraft:diamond>, <minecraft:diamond_ore>],
     - Rename items
     - Add/modify tooltips
     - Change item properties
+
+    Documentation:
+    - Item Manipulation: https://docs.blamejared.com/1.12/en/Vanilla/Items/IItemStack/
 */
 
 // Custom item names with formatting
@@ -96,18 +112,38 @@ for item, tooltips in itemTooltips {
     - Modify mining properties
     - Change block behavior
     - Adjust block attributes
+
+    Documentation:
+    - Block Properties: https://docs.blamejared.com/1.12/en/Vanilla/Blocks/IBlockDefinition/
+    - Block States: https://docs.blamejared.com/1.12/en/Vanilla/Blocks/IBlockState/
 */
 
 // Modify block hardness (mining time)
 static blockHardness as double[IItemStack] = {
     <minecraft:obsidian>: 250.0,    // Make obsidian even harder
     <minecraft:web>: 0.1,          // Make cobwebs easier to break
-    <minecraft:bedrock>: 50.0      // Make bedrock minable (if allowed by other mods)
+    <minecraft:bedrock>: 50.0,     // Make bedrock minable
+    <minecraft:stone>: -1.0        // Make stone unbreakable
 };
 
 for block, hardness in blockHardness {
     block.hardness = hardness;
 }
+
+// ================ Item Properties ================
+
+/*
+    Item Property Modifications
+    - Change tool durability
+    - Modify item attributes
+    - Adjust basic properties
+
+    Documentation:
+    - Item Properties & Manipulation: https://docs.blamejared.com/1.12/en/Vanilla/Items/IItemStack
+*/
+
+// Modify tool durability
+<minecraft:wooden_pickaxe>.maxDamage = 20;     // Reduce wooden pickaxe durability
 
 // ================ Advanced Item Properties ================
 
@@ -116,6 +152,10 @@ for block, hardness in blockHardness {
     - Add enchantments
     - Modify NBT data
     - Change item behavior
+
+    Documentation:
+    - Enchantments: https://docs.blamejared.com/1.12/en/Vanilla/Enchantments/IEnchantmentDefinition/
+    - NBT Data: https://docs.blamejared.com/1.12/en/Vanilla/Data/IData/
 */
 
 // Add enchantment names
