@@ -1,3 +1,3 @@
-enchantment.crossbows.quick_charge.decs=Increases the reload speed of crossbows.
-enchantment.crossbows.multishot.decs=Fires additional arrows in similar directions.
+enchantment.crossbows.quick_charge.desc=Increases the reload speed of crossbows.
+enchantment.crossbows.multishot.desc=Fires additional arrows in similar directions.
 enchantment.crossbows.piercing.desc=Allows projectiles to pierce through mobs.
