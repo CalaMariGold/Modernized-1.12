@@ -1,0 +1,190 @@
+#loader crafttweaker reloadable
+/* 
+    Modernized 1.12 - Example Events Script
+    This script demonstrates various event handling capabilities in CraftTweaker.
+    All examples can be uncommented and used directly in your modpack.
+
+    To use this script, remove ".disabled" from the file name.
+*/
+
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockState;
+import crafttweaker.data.IData;
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.event.BlockHarvestDropsEvent;
+import crafttweaker.event.EntityLivingDeathEvent;
+import crafttweaker.event.PlayerInteractBlockEvent;
+import crafttweaker.event.PlayerLoggedInEvent;
+import crafttweaker.event.PlayerRespawnEvent;
+import crafttweaker.event.PlayerTickEvent;
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IWorld;
+import mods.contenttweaker.Commands;
+
+
+// ================ Player Events ================
+
+/*
+    First-Time Join Detection
+    - Stores a persistent flag in player data
+    - Sends a welcome message and gives starter items
+    - Only triggers once per player
+*/
+events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
+
+    // Without this, the rest of the code in this event will trigger twice. Once on the client and once on the server.
+    // Be sure to include this for all your events.
+    if(event.entity.world.isRemote()) {
+        return;
+    }
+
+    if (isNull(event.player.data.firstTimeJoin)) {
+        // Store the flag
+        event.player.update({firstTimeJoin: true});
+        
+        // Welcome message with formatting
+        event.player.sendChat("§6Welcome to the server, " + event.player.name + "!");
+        event.player.sendChat("§eHere's your starter kit!");
+        
+        // Give starter items
+        event.player.give(<minecraft:stone_sword>);
+        event.player.give(<minecraft:bread> * 16);
+        event.player.give(<minecraft:torch> * 32);
+        
+    }
+});
+
+/*
+    Death Recovery System
+    - Gives players items to help them recover their stuff
+    - Applies temporary effects for safety
+*/
+events.onPlayerRespawn(function(event as PlayerRespawnEvent) {
+    if(event.entity.world.isRemote()) {
+        return;
+    }
+
+    // Give recovery items
+    //event.player.give(<quark:soul_compass>.withTag({ench:[{id:71,lvl:1}]}));
+    event.player.give(<minecraft:golden_apple>);
+    
+    // Apply safety effects
+    event.player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(300, 1));
+    event.player.addPotionEffect(<potion:minecraft:night_vision>.makePotionEffect(300, 0));
+});
+
+// ================ Block Interaction Events ================
+
+/*
+    Mining Warning System
+    - Shows warning messages when trying to mine certain blocks with wrong tools
+    - Plays a sound to alert the player
+    - Simple to customize for any block/tool combination
+*/
+events.onPlayerLeftClickBlock(function(event as crafttweaker.event.PlayerLeftClickBlockEvent) {
+    if(event.entity.world.isRemote()) {
+        return;
+    }
+
+    // Get the block and tool being used
+    val block = event.block;
+    val tool = event.player.currentItem;
+    
+    // Diamond Ore warning
+    if(block.definition.id == "minecraft:diamond_ore") {
+        if(!isNull(tool)) {
+            if(tool.definition.id == "minecraft:wooden_pickaxe" || tool.definition.id == "minecraft:stone_pickaxe") {
+                event.player.sendChat("§c⚠ Your " + tool.displayName + " isn't strong enough to mine diamond ore!");
+                Commands.call("playsound minecraft:entity.villager.no player @s ~ ~ ~ 1.0 1.0", event.player, event.world, true, true);
+            }
+        }
+    }
+    
+    // Obsidian warning
+    if(block.definition.id == "minecraft:obsidian") {
+        if(isNull(tool) || tool.definition.id != "minecraft:diamond_pickaxe") {
+            event.player.sendChat("§c⚠ You need a diamond pickaxe to mine obsidian!");
+            Commands.call("playsound minecraft:entity.villager.no player @s ~ ~ ~ 1.0 1.0", event.player, event.world, true, true);
+        }
+    }
+});
+
+// ================ Time-Based Events ================
+
+/*
+    Delayed Event System
+    - Executes actions after a specified delay
+    - Can be used for quest timers, delayed rewards, etc.
+*/
+events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
+    if(event.entity.world.isRemote()) {
+        return;
+    }
+
+    // Chain of delayed events
+    event.player.world.catenation()
+    .run(function(world, context) {
+            context.data = {player: event.player.name, startTime: world.time};
+        })
+        .sleep(200) // 200 ticks = 10 seconds
+        .then(function(world, context) {
+            server.commandManager.executeCommand(server, "title " + context.data.player + " actionbar {\"text\":\"First checkpoint reached!\",\"color\":\"green\"}");
+        })
+        .sleep(200) // Another 10 seconds
+        .then(function(world, context) {
+            server.commandManager.executeCommand(server, "title " + context.data.player + " actionbar {\"text\":\"Challenge completed!\",\"color\":\"gold\"}");
+            // Give reward
+            val player = event.player;
+            if(!isNull(player)) {
+                player.give(<minecraft:diamond>);
+            }
+        })
+        .start();
+});
+
+// ================ Progression Events ================
+
+/*
+    GameStage-Based Progression System
+    - Awards stages based on player achievements
+    - Includes boss kill detection
+    - Supports multiple progression paths
+*/
+events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
+    if(event.entity.world.isRemote()) {
+        return;
+    }
+
+    val damageSource = event.damageSource;
+    val killer = damageSource.trueSource;
+    
+    // Check if the killer exists and is a player
+    if(isNull(killer) || !(killer instanceof IPlayer)) {
+        return;
+    }
+    
+    // Now we can safely cast to IPlayer
+    val player as IPlayer = killer;
+    val entityId = event.entity.definition.id;
+    
+    // Boss kill progression
+    if(entityId == <entity:minecraft:wither>.id) {
+        server.commandManager.executeCommand(server, "gamestage silentadd " + player.name + " killed_wither");
+        player.sendChat("§5You have proven yourself worthy by defeating the Wither!");
+    } 
+    else if(entityId == <entity:minecraft:ender_dragon>.id) {
+        server.commandManager.executeCommand(server, "gamestage silentadd " + player.name + " killed_dragon");
+        player.sendChat("§5The End is just the beginning...");
+    }
+    
+    // Check for stage combinations
+    if(player.hasGameStage("killed_wither") && player.hasGameStage("killed_dragon")) {
+        server.commandManager.executeCommand(server, "gamestage silentadd " + player.name + " master_slayer");
+        player.sendChat("§6§lYou have become a Master Slayer!");
+    }
+}); 
+
+
+*/
