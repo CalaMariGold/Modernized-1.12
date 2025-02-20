@@ -18,3 +18,4 @@ config/jei/worldSettings.cfg
 mods/Nether-API-v1.3.0-mc1.12.2.jar
 mods/Piston-API-v1.0.2-mc1.12.2.jar
 /classOut
+/mods/1.12.2
