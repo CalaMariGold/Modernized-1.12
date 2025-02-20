@@ -2,7 +2,7 @@
 #General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
 [general]
 	#The Application ID of the Discord App to use
-	applicationID = 762726289341677668
+	applicationID = 1342207412911865926
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
@@ -19,13 +19,13 @@
 	#Enable/Disable the Game Loading Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Minecraft is loading"
+	description = "Modernized 1.12 is loading"
 	#The second line of text under the app name
 	state = "Game Starting..."
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "It's Minecraft 1.12.2, but modernized"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -44,7 +44,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "It's Minecraft 1.12.2, but modernized"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -63,7 +63,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "It's Minecraft 1.12.2, but modernized"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -82,7 +82,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "It's Minecraft 1.12.2, but modernized"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -101,7 +101,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "It's Minecraft 1.12.2, but modernized"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -120,7 +120,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "It's Minecraft 1.12.2, but modernized"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -139,7 +139,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "It's Minecraft 1.12.2, but modernized"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -158,7 +158,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "It's Minecraft 1.12.2, but modernized"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -169,13 +169,13 @@
 #Fallback event for disabled events
 [generic]
 	#The first line of text under the app name
-	description = "Playing Minecraft"
+	description = "Playing Modernized 1.12"
 	#The second line of text under the app name
 	state = ""
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "It's Minecraft 1.12.2, but modernized"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
