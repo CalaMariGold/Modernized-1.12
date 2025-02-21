@@ -1,6 +1,6 @@
 ofFogType:2
 ofFogStart:0.8
-ofMipmapType:0
+ofMipmapType:3
 ofOcclusionFancy:false
 ofSmoothFps:true
 ofSmoothWorld:true
@@ -42,7 +42,7 @@ ofChunkUpdatesDynamic:true
 ofTime:0
 ofClearWater:false
 ofAaLevel:0
-ofAfLevel:1
+ofAfLevel:4
 ofProfiler:false
 ofBetterSnow:true
 ofSwampColors:true
