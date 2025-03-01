@@ -1,0 +1,119 @@
+#loader crafttweaker reloadable
+#modloaded futuremc
+/* 
+    Modernized 1.12 - Composter Script
+    This script increases the mod compatibility of FutureMC's composter.
+    To use this script, remove ".disabled" from the file name.
+*/
+
+import mods.futuremc.Composter;
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+
+/*
+    Replaces IItemStack inputs, single items, with IOreDictEntry inputs, allowing multiple inputs.
+    Increases easiness to add mod support
+    For example, every sapling should automatically compostable without adding them to the script
+*/
+    //Removal
+        //Removal of some valid items is broken. We therefore need to remove them all and add the ones we require
+        Composter.clearValidItems()
+
+        //Some defaults were useful
+        for item, chance in {
+            <minecraft:tallgrass:1> : 30,
+            <futuremc:sweet_berries> : 30,
+            <minecraft:melon> : 50,
+            <minecraft:reeds> : 50,
+            <ore:blockCactus> : 50,
+            <minecraft:apple> : 65,
+            <minecraft:beetroot> : 65,
+            <minecraft:carrot> : 65,
+            <minecraft:dye:3> : 65,
+            <minecraft:tallgrass:2> : 65,
+            <minecraft:double_plant:*> : 65,
+            <minecraft:red_flower:*> : 65,
+            <minecraft:yellow_flower> : 65,
+            <futuremc:lily_of_the_valley> : 65,
+            <futuremc:cornflower> : 65,
+            <futuremc:wither_rose> : 65,
+            <minecraft:waterlily> : 65,
+            <minecraft:melon> : 65,
+            <minecraft:potato> : 65,
+            <minecraft:pumpkin> : 65,
+            <minecraft:wheat> : 65,
+            <minecraft:baked_potato> : 80,
+            <minecraft:bread> : 80,
+            <minecraft:cookie> : 80,
+            <minecraft:hay_block> : 80,
+            <minecraft:pumpkin_pie> : 100,
+            <minecraft:cake> : 100
+        } as int[IItemStack]{Composter.addValidItem();}
+    //Done!
+
+    //Addition
+        for input, chance in {
+            <ore:seed> : 30,
+            <ore:treeLeaves> : 30,
+            <ore:treeSapling> : 30,
+            <ore:vine> : 50,
+            <ore:mushroomAny> : 65,
+        } as int[IOreDictEntry]{
+            Composter.addValidItem(input, chance);
+        }
+    //Done!
+//Done!
+
+/*
+    Adds more mod support.
+*/
+    //Helper function for less pain
+    function addRecipes(modid as string, recipes as int[string]){
+        //itemid includes the damage value
+        //We won't check if the mod is loaded because we assume that to already have been done
+        for itemid,chance in recipes{
+            Composter.addValidItem(<item:${modid}:${itemid}>,chance);
+            //In a string between `` or a bracket handler, ${variable} is replaced with the value of the variable/
+            //That however requires the item prefix
+            //For more information, https://github.com/friendlyhj/ZenUtils/wiki/TemplateString
+        }
+    }
+
+    if (loadedMods has "quark"){
+        addRecipes("quark", {
+            "leaf_carpet:*":20,
+            "root":50,
+            "root_flower:*":50
+        });
+    }
+
+    if (loadedMods has "oe"){
+        addRecipes("oe", {
+            "sea_pickle":65,
+            "seagrass":30,
+            "sea_oats":50,
+            "coconut_open":65,
+            "kelp":30,
+            "dried_kelp":30,
+            "dulse":30,
+            "dried_dulse":30,
+            "dried_kelp_block":50
+        });
+    }
+
+    if (loadedMods has "botania"){
+        addRecipes("botania", {
+            "petal:*":35,
+            "grassseeds:*":40,
+            "petalblock:*":40,
+            "flower:*":65,
+            "doubleflower1:*":65,
+            "doubleflower2:*":65,
+            "specialflower":65,
+            "floatingspecialflower":65,
+            "shinyflower:*":65,
+            "miniisland:*":65
+        });
+    }
+    //Maybe more mods in the future?
+//Done!
