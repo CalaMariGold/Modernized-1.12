@@ -1,0 +1,4 @@
+effect.deeperdepths.wind_charged.0.desc=Emit a Wind Charge when killed
+effect.deeperdepths.weaving.0.desc=Move faster in cobwebs, spawn some when killed
+effect.deeperdepths.infested.0.desc=Chance to spawn silverfish when killed
+effect.deeperdepths.oozing.0.desc=Spawn 2 slimes when killed
