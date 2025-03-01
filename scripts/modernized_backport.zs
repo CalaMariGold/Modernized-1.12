@@ -32,3 +32,10 @@ import crafttweaker.item.IItemStack;
         }
     //Done!
 //Done!
+
+//Deeper Depths candle craft
+    recipes.addShaped(<deeperdepths:candle>, [
+        [<ore:string>],
+        [<futuremc:honeycomb>]
+    ]);
+//Done!
