@@ -1,4 +1,3 @@
-#loader crafttweaker reloadable
 /* 
     Modernized 1.12 - ZenScript Basics Tutorial
     This script introduces the basic concepts of CraftTweaker and ZenScript scripting.
@@ -26,6 +25,9 @@
     
     Documentation: https://docs.blamejared.com/1.12/en/AdvancedFunctions/Import/
 */
+
+// Enable script reloading via ZenRecipeReload mod, must be at top
+#loader crafttweaker reloadable
 
 // Basic imports
 import crafttweaker.item.IItemStack;           // For item manipulation

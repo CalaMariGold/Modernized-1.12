@@ -1,4 +1,3 @@
-#loader crafttweaker reloadable
 /* 
     Modernized 1.12 - Example Recipes Script
     This script demonstrates various recipe manipulation techniques in CraftTweaker.
@@ -14,6 +13,7 @@
     To use this script, remove ".disabled" from the file name.
 */
 
+#loader crafttweaker reloadable
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;

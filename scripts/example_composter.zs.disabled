@@ -1,11 +1,11 @@
-#loader crafttweaker reloadable
-#modloaded futuremc
 /* 
     Modernized 1.12 - Composter Script
     This script increases the mod compatibility of FutureMC's composter.
     To use this script, remove ".disabled" from the file name.
 */
 
+#loader crafttweaker reloadable
+#modloaded futuremc
 import mods.futuremc.Composter;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
@@ -15,11 +15,11 @@ import crafttweaker.oredict.IOreDictEntry;
     Increases easiness to add mod support
     For example, every sapling should automatically compostable without adding them to the script
 */
-    //Removal
-        //Removal of some valid items is broken. We therefore need to remove them all and add the ones we require
+    // Removal
+        // Removal of some valid items is broken. We therefore need to remove them all and add the ones we require
         Composter.clearValidItems()
 
-        //Some defaults were useful
+        // Some defaults were useful
         for item, chance in {
             <minecraft:tallgrass:1> : 30,
             <futuremc:sweet_berries> : 30,
@@ -49,9 +49,8 @@ import crafttweaker.oredict.IOreDictEntry;
             <minecraft:pumpkin_pie> : 100,
             <minecraft:cake> : 100
         } as int[IItemStack]{Composter.addValidItem();}
-    //Done!
 
-    //Addition
+    // Addition
         for input, chance in {
             <ore:seed> : 30,
             <ore:treeLeaves> : 30,
@@ -61,21 +60,20 @@ import crafttweaker.oredict.IOreDictEntry;
         } as int[IOreDictEntry]{
             Composter.addValidItem(input, chance);
         }
-    //Done!
-//Done!
+
 
 /*
     Adds more mod support.
 */
-    //Helper function for less pain
+    // Helper function for less pain
     function addRecipes(modid as string, recipes as int[string]){
-        //itemid includes the damage value
-        //We won't check if the mod is loaded because we assume that to already have been done
+        // itemid includes the damage value
+        // We won't check if the mod is loaded because we assume that to already have been done
         for itemid,chance in recipes{
             Composter.addValidItem(<item:${modid}:${itemid}>,chance);
-            //In a string between `` or a bracket handler, ${variable} is replaced with the value of the variable/
-            //That however requires the item prefix
-            //For more information, https://github.com/friendlyhj/ZenUtils/wiki/TemplateString
+            // In a string between `` or a bracket handler, ${variable} is replaced with the value of the variable/
+            // That however requires the item prefix
+            // For more information, https://github.com/friendlyhj/ZenUtils/wiki/TemplateString
         }
     }
 
@@ -115,5 +113,4 @@ import crafttweaker.oredict.IOreDictEntry;
             "miniisland:*":65
         });
     }
-    //Maybe more mods in the future?
-//Done!
+    // Maybe more mods in the future?
