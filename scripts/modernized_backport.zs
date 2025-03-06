@@ -15,6 +15,7 @@ import crafttweaker.item.IItemStack;
 recipes.removeByRecipeName("oe:palm_planks");
 recipes.removeByRecipeName("oe:palm_wood");
 recipes.addShapeless(<oe:palm_log>, [<oe:palm_wood>]);
+recipes.addShapeless(<oe:palm_planks> * 4, [<oe:palm_log>]);
 furnace.setFuel(<oe:palm_boat>, 400);
 furnace.setFuel(<oe:palm_sapling>, 100);
 
