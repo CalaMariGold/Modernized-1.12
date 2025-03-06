@@ -38,4 +38,14 @@ import crafttweaker.item.IItemStack;
         [<ore:string>],
         [<futuremc:honeycomb>]
     ]);
+
+//OE tropical slime is slime
+    <ore:slimeball>.add(<oe:blue_slime_ball>);
+    <ore:blockSlime>.add(<oe:blue_slime_block>);
+    recipes.removeByRecipeName("minecraft:slime");
+    recipes.addShaped(<minecraft:slime>, [
+        [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
+        [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
+        [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>]
+    ]);
 //Done!
