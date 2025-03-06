@@ -33,6 +33,12 @@ import crafttweaker.item.IItemStack;
     //Done!
 //Done!
 
+//Deeper Depths candle craft
+    recipes.addShaped(<deeperdepths:candle>, [
+        [<ore:string>],
+        [<futuremc:honeycomb>]
+    ]);
+
 //OE tropical slime is slime
     <ore:slimeball>.add(<oe:blue_slime_ball>);
     <ore:blockSlime>.add(<oe:blue_slime_block>);
