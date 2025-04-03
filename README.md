@@ -191,6 +191,6 @@
 <p style="font-size: 16px; margin-bottom: 20px;">This modpack would not be possible without the incredible people of the 1.12 Coalition, a community formed to preserve and improve the 1.12 modded experience. <br />Join the community by clicking the image below to get support and updates for all things 1.12!</p>
 </div>
 <div style="text-align: center; margin: 40px 0;">
-<p style="font-style: italic; color: #666;"><a href="https://discord.gg/urdscFmnmm" target="_blank" rel="noopener noreferrer"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://cdn.discordapp.com/attachments/1137754764675911790/1137755633756676106/phoenixlogo2x1textlarge.PNG?ex=67b88f01&amp;is=67b73d81&amp;hm=19eb9fedecd7609d98f5a4d75cf5ccd656c3f0596e2fa6ea754a8f1580b34b6a&amp;" alt="" width="543" height="271" /></a></p>
+<p style="font-style: italic; color: #666;"><a href="https://discord.gg/urdscFmnmm" target="_blank" rel="noopener noreferrer"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/CalaMariGold/Modernized-1.12/blob/main/1.12%20Coalition%20Assets/phoenixlogo2x1textlarge.png" alt="" width="543" height="271" /></a></p>
 <p style="font-style: italic; color: #666;">Modernized 1.12 is open source! Contributions are welcome and appreciated! View our <a style="color: #1976d2; text-decoration: none;" href="https://github.com/CalaMariGold/Modernized-1.12">GitHub repository</a></p>
 </div>
