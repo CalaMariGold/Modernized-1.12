@@ -28,7 +28,7 @@ furnace.setFuel(<oe:palm_slab>, 150);
 <ore:slimeball>.add(<oe:blue_slime_ball>);
 <ore:blockSlime>.add(<oe:blue_slime_block>);
 
-// Recreate the vanilla slime block recipe to work with any slimeball type
+// Recreate the vanilla slime block recipe so it doesn't accept all slime balls (ie, blue slime)
 recipes.removeByRecipeName("minecraft:slime");
 recipes.addShaped(<minecraft:slime>, [
     [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
