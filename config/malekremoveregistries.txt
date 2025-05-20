@@ -1,6 +1,0 @@
-futuremc:loyalty
-futuremc:riptide
-futuremc:channeling
-futuremc:impaling
-futuremc:smooth_sandstone
-futuremc:smooth_red_sandstone
