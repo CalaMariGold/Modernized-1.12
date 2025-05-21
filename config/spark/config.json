@@ -3,5 +3,9 @@
   "viewerUrl": "https://spark.lucko.me/",
   "bytebinUrl": "https://spark-usercontent.lucko.me/",
   "disableResponseBroadcast": false,
-  "loadingProfiler_ENABLED": false
+  "loadingProfiler_ENABLED": false,
+  "backgroundProfiler": false,
+  "backgroundProfilerThreadGrouper": "by-pool",
+  "backgroundProfilerThreadDumper": "default",
+  "backgroundProfilerInterval": 10
 }
