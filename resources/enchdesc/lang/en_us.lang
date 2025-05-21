@@ -1,7 +1,3 @@
 enchantment.crossbows.quick_charge.desc=Increases the reload speed of crossbows.
 enchantment.crossbows.multishot.desc=Fires additional arrows in similar directions.
 enchantment.crossbows.piercing.desc=Allows projectiles to pierce through mobs.
-
-enchantment.deeperdepths.breach.desc=Reduces the effectiveness of the armor on the target
-enchantment.deeperdepths.density.desc=Increases the damage dealt by 0.5 per level per block fallen
-enchantment.deeperdepths.wind_burst.desc=When smashing, emits a burst of wind, launching you upwards
