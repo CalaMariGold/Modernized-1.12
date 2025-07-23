@@ -105,10 +105,10 @@
     "modId": "betteradvancements",
     "version": "0.1.0"
   },
-  "betterbiomeblend-1.12.2-1.1.7-forge.jar": {
-    "jarName": "betterbiomeblend-1.12.2-1.1.7-forge.jar",
+  "betterbiomeblend-1.2.0-1.12.2.jar": {
+    "jarName": "betterbiomeblend-1.2.0-1.12.2.jar",
     "modId": "betterbiomeblend",
-    "version": "1.12.2-1.1.7-forge"
+    "version": "1.2.0"
   },
   "betterchat-1.4.jar": {
     "jarName": "betterchat-1.4.jar",
@@ -522,11 +522,6 @@
     "jarName": "rockytweaks-1.12.2-0.6.1.jar",
     "modId": "${modid}",
     "version": "${version}"
-  },
-  "scalar-3.6.4.jar": {
-    "jarName": "scalar-3.6.4.jar",
-    "modId": "scalar",
-    "version": "${mod_version}"
   },
   "serializationisbad-1.5.2.jar": {
     "jarName": "serializationisbad-1.5.2.jar"
