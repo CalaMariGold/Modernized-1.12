@@ -32,8 +32,6 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_of.key.zoom:46
-key_quark.keybind.toggleAutojump:0
-key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -52,6 +50,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
@@ -59,14 +58,11 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.playerSort:0
-key_ChatFlow:0
-key_neat.keybind.toggle:0
-key_Toggle Raw Input:0
-key_Rescan Key:0
+key_quark.keybind.toggleAutojump:0
+key_ChatFlow:88
+key_keybind.endermodpacktweaks.toggle:0
 key_key.betterfoliage.gui:0
 key_Reload Default Sound Device:25
-key_key.dismount:42
 key_smoothfont.key.guiOpen:0
 key_key.jei.toggleOverlay:0
 key_key.jei.focusSearch:33:CONTROL
@@ -81,14 +77,17 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
-key_FpsReducer.key.guiOpen:0
-key_FpsReducer.key.forceIdle:0
 key_waila.keybind.wailaconfig:0
 key_waila.keybind.wailadisplay:0
 key_waila.keybind.liquid:0
 key_waila.keybind.recipe:0
 key_waila.keybind.usage:0
-key_Quick Commands:0
+key_FpsReducer.key.guiOpen:0
+key_FpsReducer.key.forceIdle:0
+key_key.performancemonitoringenhanc.toggleHud:35
+key_key.performancemonitoringenhanc.openDragScreen:0
+key_key.performancemonitoringenhanc.openSettings:0
+key_key.performancemonitoringenhanc.toggleVerboseOverlay:0
 key_key.quit:1
 key_key.hideHUD:59
 key_key.debugScreen:61
@@ -96,8 +95,7 @@ key_key.narrator:48:CONTROL
 key_teamsmod.keyhud.desc:0
 key_teamsmod.keycompass.desc:0
 key_teamsmod.keyaccept.desc:27
-key_teamsmod.keyswitch.desc:0
-key_keybind.universaltweaks.clear_toasts:11:CONTROL
+key_teamsmod.keyswitch.desc:19
+key_keybind.universaltweaks.clear_toasts:0
 key_key.sort_config:0
 key_key.sort:-98
-key_key.fullscreenwindowed.unused:0
