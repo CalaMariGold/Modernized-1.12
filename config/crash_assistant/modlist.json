@@ -618,5 +618,10 @@
     "jarName": "zenutils-1.25.5.jar",
     "modId": "zenutils",
     "version": "1.25.5"
+  },
+  "zspacket-0.0.1.jar": {
+    "jarName": "zspacket-0.0.1.jar",
+    "modId": "zspacket",
+    "version": "0.0.1"
   }
 }
