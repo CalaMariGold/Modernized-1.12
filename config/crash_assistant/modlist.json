@@ -430,6 +430,11 @@
     "modId": "optifinecitpatch",
     "version": "1.0.4"
   },
+  "PaperFixes-2.0.0.jar": {
+    "jarName": "PaperFixes-2.0.0.jar",
+    "modId": "paperfixes",
+    "version": "2.0.0"
+  },
   "particleculling-1.12.2-v1.4.3.jar": {
     "jarName": "particleculling-1.12.2-v1.4.3.jar",
     "modId": "particleculling",
