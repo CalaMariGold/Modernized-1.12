@@ -75,10 +75,10 @@
     "modId": "athenaeum",
     "version": "1.12.2-1.19.6"
   },
-  "Atlas-Lib-1.12.2-1.1.8.jar": {
-    "jarName": "Atlas-Lib-1.12.2-1.1.8.jar",
+  "Atlas-Lib-1.12.2-1.1.8a.jar": {
+    "jarName": "Atlas-Lib-1.12.2-1.1.8a.jar",
     "modId": "atlaslib",
-    "version": "1.1.8"
+    "version": "1.1.8a"
   },
   "AutoRegLib-1.3-32.jar": {
     "jarName": "AutoRegLib-1.3-32.jar",
@@ -180,10 +180,10 @@
     "modId": "corpsecomplex",
     "version": "1.12.2-1.0.12.0"
   },
-  "CraftTweaker2-1.12-4.1.20.705.jar": {
-    "jarName": "CraftTweaker2-1.12-4.1.20.705.jar",
+  "CraftTweaker2-1.12-4.1.20.709.jar": {
+    "jarName": "CraftTweaker2-1.12-4.1.20.709.jar",
     "modId": "crafttweaker",
-    "version": "1.12-4.1.20.705"
+    "version": "1.12-4.1.20.709"
   },
   "crafttweakerutils-0.7.jar": {
     "jarName": "crafttweakerutils-0.7.jar",
@@ -205,10 +205,10 @@
     "modId": "ctm",
     "version": "MC1.12.2-1.0.2.31"
   },
-  "Deeper-Depths-1.12.2-1.0.3c.jar": {
-    "jarName": "Deeper-Depths-1.12.2-1.0.3c.jar",
+  "Deeper-Depths-1.12.2-1.0.3d.jar": {
+    "jarName": "Deeper-Depths-1.12.2-1.0.3d.jar",
     "modId": "deeperdepths",
-    "version": "1.0.3c"
+    "version": "1.0.3d"
   },
   "DefaultOptions_1.12.2-9.2.8.jar": {
     "jarName": "DefaultOptions_1.12.2-9.2.8.jar",
@@ -260,10 +260,10 @@
     "modId": "normalasm",
     "version": "5.28"
   },
-  "FermiumMixins-1.0.4.jar": {
-    "jarName": "FermiumMixins-1.0.4.jar",
+  "FermiumMixins-1.0.5.jar": {
+    "jarName": "FermiumMixins-1.0.5.jar",
     "modId": "fermiummixins",
-    "version": "1.0.4"
+    "version": "1.0.5"
   },
   "Fixeroo-2.3.6b.jar": {
     "jarName": "Fixeroo-2.3.6b.jar",
@@ -310,10 +310,10 @@
     "modId": "gnetum",
     "version": "1.2.6"
   },
-  "HadEnoughItems_1.12.2-4.29.3.jar": {
-    "jarName": "HadEnoughItems_1.12.2-4.29.3.jar",
+  "HadEnoughItems_1.12.2-4.29.6.jar": {
+    "jarName": "HadEnoughItems_1.12.2-4.29.6.jar",
     "modId": "jei",
-    "version": "4.29.3"
+    "version": "4.29.6"
   },
   "Highlighter-1.12.2-forge-1.1.7.jar": {
     "jarName": "Highlighter-1.12.2-forge-1.1.7.jar",
@@ -382,10 +382,10 @@
     "modId": "modtweaker",
     "version": "4.0.20.11"
   },
-  "modularui-2.5.0-rc5.jar": {
-    "jarName": "modularui-2.5.0-rc5.jar",
+  "modularui-2.5.0-rc6.jar": {
+    "jarName": "modularui-2.5.0-rc6.jar",
     "modId": "modularui",
-    "version": "2.5.0-rc5"
+    "version": "2.5.0-rc6"
   },
   "MoreTweaker-1.0.19.jar": {
     "jarName": "MoreTweaker-1.0.19.jar",
@@ -434,6 +434,11 @@
     "jarName": "OptifineCITPatch-1.0.4.jar",
     "modId": "optifinecitpatch",
     "version": "1.0.4"
+  },
+  "PaperFixes-2.0.0.jar": {
+    "jarName": "PaperFixes-2.0.0.jar",
+    "modId": "paperfixes",
+    "version": "2.0.0"
   },
   "particleculling-1.12.2-v1.4.3.jar": {
     "jarName": "particleculling-1.12.2-v1.4.3.jar",
