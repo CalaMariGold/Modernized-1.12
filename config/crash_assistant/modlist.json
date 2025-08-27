@@ -300,11 +300,6 @@
     "modId": "gamestages",
     "version": "2.0.123"
   },
-  "GlobalGameRules-1.12.2-2.2.7.jar": {
-    "jarName": "GlobalGameRules-1.12.2-2.2.7.jar",
-    "modId": "globalgamerules",
-    "version": "2.2.7"
-  },
   "gnetum-1.2.6.jar": {
     "jarName": "gnetum-1.2.6.jar",
     "modId": "gnetum",
@@ -434,11 +429,6 @@
     "jarName": "OptifineCITPatch-1.0.4.jar",
     "modId": "optifinecitpatch",
     "version": "1.0.4"
-  },
-  "PaperFixes-2.0.0.jar": {
-    "jarName": "PaperFixes-2.0.0.jar",
-    "modId": "paperfixes",
-    "version": "2.0.0"
   },
   "particleculling-1.12.2-v1.4.3.jar": {
     "jarName": "particleculling-1.12.2-v1.4.3.jar",
