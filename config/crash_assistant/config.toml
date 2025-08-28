@@ -83,7 +83,7 @@
 	#Warning! This is not displayed anywhere, it's just tech param used for modlist feature to work correctly.
 	#Here must be actual nicknames of people who work with the modpack and publishing releases!
 	#-----------------------------------------------------------------------------------------------------
-	modpack_creators = ["CalaMariGold"]
+	modpack_creators = ["CalaMariGold", "roidrole"]
 	#If enabled, will add generated modlist.txt, with names of all mods / modids / mixin configs / jarjar mods info to logs.
 	#
 	add_modlist_txt_as_log = true

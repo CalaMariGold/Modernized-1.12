@@ -13,6 +13,7 @@ usercache.json
 /optionsof.txt
 /options.txt
 /mods/memory_repo
+/mods/.index
 mods/OptiFine_1.12.2_HD_U_G6_pre1.jar
 config/jei/worldSettings.cfg
 mods/Nether-API-v1.3.0-mc1.12.2.jar
@@ -25,3 +26,5 @@ servers.dat
 config/relauncher.json
 /relauncher
 /local
+icon.png
+time.history
