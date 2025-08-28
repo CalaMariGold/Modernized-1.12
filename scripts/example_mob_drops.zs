@@ -19,7 +19,6 @@ if (true){
     // Accesses assets/oe/loot_tables/entities/drowned.json. That is a loot table 
     //https://github.com/SirSquidly/Oceanic-Expanse/blob/master/src/main/resources/assets/oe/loot_tables/entities/drowned.json
     val drowned = Table("oe:entities/drowned");
-    val drowned_captain = Table("oe:entities/drowned_captain");
 
     pool = drowned.getPool("drowned_rare_drop");
     // We are now in the second pool, the one containing the gold ingot
