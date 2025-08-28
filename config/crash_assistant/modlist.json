@@ -185,20 +185,10 @@
     "modId": "crafttweaker",
     "version": "1.12-4.1.20.709"
   },
-  "crafttweakerutils-0.7.jar": {
-    "jarName": "crafttweakerutils-0.7.jar",
-    "modId": "examplemod",
-    "version": "0.7"
-  },
   "Crossbows-Backport-1.12.2-1.1.1.jar": {
     "jarName": "Crossbows-Backport-1.12.2-1.1.1.jar",
     "modId": "crossbows",
     "version": "1.1.1"
-  },
-  "ctintegration-1.8.0.jar": {
-    "jarName": "ctintegration-1.8.0.jar",
-    "modId": "ctintegration",
-    "version": "1.8.0"
   },
   "CTM-MC1.12.2-1.0.2.31.jar": {
     "jarName": "CTM-MC1.12.2-1.0.2.31.jar",
@@ -508,10 +498,10 @@
     "modId": "rltweaker",
     "version": "0.7.5"
   },
-  "rockytweaks-1.12.2-0.6.1.jar": {
-    "jarName": "rockytweaks-1.12.2-0.6.1.jar",
-    "modId": "${modid}",
-    "version": "${version}"
+  "roidtweaker-1.1.0.jar": {
+    "jarName": "roidtweaker-1.1.0.jar",
+    "modId": "roidtweaker",
+    "version": "1.1.0"
   },
   "serializationisbad-1.5.2.jar": {
     "jarName": "serializationisbad-1.5.2.jar"
@@ -583,11 +573,6 @@
     "jarName": "UniversalTweaks-1.12.2-1.15.2.jar",
     "modId": "universaltweaks",
     "version": "1.15.2"
-  },
-  "vanillaanvilrepair-1.1.jar": {
-    "jarName": "vanillaanvilrepair-1.1.jar",
-    "modId": "vanillaanvilrepair",
-    "version": "1.1"
   },
   "VillageNames-1.12.2-4.4.13.jar": {
     "jarName": "VillageNames-1.12.2-4.4.13.jar",
