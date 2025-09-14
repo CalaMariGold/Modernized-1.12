@@ -24,13 +24,13 @@
     "curse":
 	[
 		{
-			"addonId": 1214906,
-			"fileId": 6743293,
+			"addonId": 1336201,
+			"fileId": 6936001,
 			"metadata": {
 				"side": "CLIENT"
 			},
 			"installationPolicy": {
-				"description": "Optional but recommended! Downloads Cleanroom Relauncher Unofficial from CurseForge. This mod will load the pack with Cleanroom Loader, a fork of Forge, allowing for Java 24 to be used instead of the outdated Java 8. For many, this will reduce memory usage and startup time, increase world generation speed, and other performance improvements. You must have a Java 21+ runtime installation to use this. https://www.graalvm.org/downloads/",
+				"description": "Optional but recommended! Downloads Improved Cleanroom Relauncher from CurseForge. This mod will automatically load the pack with Cleanroom Loader, a fork of Forge, allowing for Java 24 to be used instead of the outdated Java 8. For many, this will reduce memory usage and startup time, increase world generation speed, and other performance improvements.",
 				"optionalKey": "Performance",
 				"selectedByDefault": false
 			}
