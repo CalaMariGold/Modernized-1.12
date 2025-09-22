@@ -14,10 +14,10 @@
     "modId": "configanytime",
     "version": "3.0"
   },
-  "!improved-relauncher-0.3.0.jar": {
-    "jarName": "!improved-relauncher-0.3.0.jar",
-    "modId": "cleanroom-relauncher",
-    "version": "0.3.0"
+  "!improved-relauncher-0.3.1.jar": {
+    "jarName": "!improved-relauncher-0.3.1.jar",
+    "modId": "improved-relauncher",
+    "version": "0.3.1"
   },
   "!mixinbooter-10.6.jar": {
     "jarName": "!mixinbooter-10.6.jar",
@@ -32,10 +32,10 @@
     "modId": "redcore",
     "version": "0.7-Dev-1"
   },
-  "+Fugue-0.20.3.jar": {
-    "jarName": "+Fugue-0.20.3.jar",
+  "+Fugue-0.20.4.jar": {
+    "jarName": "+Fugue-0.20.4.jar",
     "modId": "fugue",
-    "version": "0.20.3"
+    "version": "0.20.4"
   },
   "`FermiumBooter-1.3.2.jar": {
     "jarName": "`FermiumBooter-1.3.2.jar",
@@ -250,10 +250,10 @@
     "modId": "normalasm",
     "version": "5.28"
   },
-  "FermiumMixins-1.0.5.jar": {
-    "jarName": "FermiumMixins-1.0.5.jar",
-    "modId": "fermiummixins",
-    "version": "1.0.5"
+  "FermiumMixins-1.0.7.jar": {
+    "jarName": "FermiumMixins-1.0.7.jar",
+    "modId": "srpmixins",
+    "version": "2.9.0.2"
   },
   "Fixeroo-2.3.6b.jar": {
     "jarName": "Fixeroo-2.3.6b.jar",
@@ -407,10 +407,10 @@
     "modId": "nothirium",
     "version": "0.4.7-beta"
   },
-  "OceanicExpanse-1.2.1.jar": {
-    "jarName": "OceanicExpanse-1.2.1.jar",
+  "OceanicExpanse-1.2.2.jar": {
+    "jarName": "OceanicExpanse-1.2.2.jar",
     "modId": "oe",
-    "version": "1.2.1"
+    "version": "1.2.2"
   },
   "OptiFine_1.12.2_HD_U_G6_pre1.jar": {
     "jarName": "OptiFine_1.12.2_HD_U_G6_pre1.jar"
