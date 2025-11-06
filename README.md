@@ -1,12 +1,15 @@
+Check out the kitchen sink "ultimate edition" version of this pack: https://github.com/CalaMariGold/Modernized-1.12-Ultimate-Edition
 <h1 style="color: #2196f3; text-align: center;">🚀 <strong>Modernized 1.12&nbsp;🚀</strong></h1>
 <h3 style="color: #666666; text-align: center;">The Ultimate Vanilla+ 1.12.2 Foundation &amp; Development Template</h3>
 <p style="text-align: center;"><span style="font-size: 16px;"><strong><span style="color: #008000; font-size: 16px;">[ Active Development | Regular Updates | Community Support ]</span></strong></span></p>
 <p style="text-align: center;"><a href="https://github.com/CalaMariGold/Modernized-1.12" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/git_64h.png" alt="git" width="160" height="50" /></a> <a href="https://discord.gg/urdscFmnmm" target="_blank" rel="noopener noreferrer"><img style="display: inline; margin-left: auto; margin-right: auto;" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_64h.png" alt="discord-plural" width="176" height="50" /></a> <a href="https://ko-fi.com/calamarigoldmodpacks" target="_blank" rel="noopener noreferrer"><img style="display: inline; margin-left: auto; margin-right: auto;" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/kofi-singular_64h.png" alt="kofi-singular" width="166" height="50" /></a></p>
 <p style="text-align: center;"><a href="https://mmcreviews.com/all/modpacks/modernized-112/" target="_blank" rel="noopener noreferrer"><img src="https://images-ext-1.discordapp.net/external/6vhMFHqBNp8x1Zp2E4PLBE0fypinEPl_Xz8nsa7cAbo/https/150012028.v2.pressablecdn.com/wp-content/uploads/2024/01/cozy_64h.png" alt="Modded Minecraft Reviews" width="157" height="50" /></a> <a href="https://docs.google.com/document/d/1UxXKZL6VM1y7t7XErz7cUEXX0JEJ_ntFB7A-NdE8Prk/edit?tab=t.3wsoz3hyx2jm" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/19edca30bae6e859acdd48e56af406b84119ffc8/assets/cozy/documentation/changelog_64h.png" alt="" width="146" height="50" /></a></p>
 <h3 style="color: #3366ff; margin-top: 0;"><span style="font-size: 24px;">⭐ <strong>Summary</strong></span></h3>
-<p style="font-size: 15px; line-height: 1.6;"><strong>Modernized 1.12</strong> is your all-in-one solution for bringing Minecraft 1.12.2 into 2025! Whether you're a player seeking the cleanest vanilla+ experience or a modpack developer looking for the perfect foundation, this pack delivers with full performance optimizations, extensive QoL improvements, and a complete development toolkit.</p>
+<p style="font-size: 15px; line-height: 1.6;"><strong>Modernized 1.12</strong> is your all-in-one solution for bringing Minecraft 1.12.2 into 2025! Whether you're a player seeking the cleanest vanilla+ experience or a modpack developer looking for the perfect foundation, this pack delivers with full performance optimizations, Java 24 compatibility, extensive QoL improvements, and a complete development toolkit.</p>
 <h3 style="color: #3366ff; margin-top: 0;"><span style="font-size: 24px;">💫 <strong>Our Philosophy</strong></span></h3>
-<p style="font-size: 15px; line-height: 1.8; margin-bottom: 15px;">This isn't just another backport modpack. We believe Minecraft 1.12 represents a golden era of the game, with its perfect balance of mechanics, performance, and charm. While newer versions of Minecraft have taken different directions, we're preserving and enhancing what made 1.12 special. <br />Think of this as <em>1.12 Enhanced</em> rather than <em>Modern Minecraft Backported</em>.&nbsp;<br /><strong>We're building upon what made this version great, not trying to turn it into something it's not.</strong></p>
+<p style="font-size: 15px; line-height: 1.8; margin-bottom: 15px;">This isn't another backport modpack. We believe Minecraft 1.12 represents a golden era of the game, with its perfect balance of mechanics, performance, and charm. While newer versions of Minecraft have taken different directions, we're preserving and enhancing what made 1.12 special. We also fully believe 1.12 is the easiest version to start modpack development and completely change how the game works from the ground up, especially with this template modpack to get you started!<br />Think of this as <em>1.12 Enhanced</em> rather than <em>Modern Minecraft Backported</em>.&nbsp;<br /><strong>We're building upon what made this version great, not trying to turn it into something it's not.</strong></p>
+<h3 style="color: #3366ff; margin-top: 0;"><span style="font-size: 24px;">📜 <strong>License</strong></span></h3>
+<p style="font-size: 15px; line-height: 1.8; margin-bottom: 15px;">You may use any part of this modpack for your own projects, including copying/modifying any of our configs and scripts. <strong>However, we highly prefer you credit this modpack</strong> on your project page and keep your project open source for the betterment of the 1.12 community! Be sure to follow the licenses for individual mods as well!</p>
 <div style="display: grid; grid-template-columns: repeat(4, 1fr);">
 <div>
 <h4 style="color: #3366ff; margin-top: 0;">✨ What We Include</h4>
@@ -20,7 +23,7 @@
 <div>
 <h4 style="color: #3366ff; margin-top: 0;">🎯 What We Avoid</h4>
 <ul style="list-style-type: none; padding-left: 0;">
-<li>✗ Features that break game balance</li>
+<li>✗ Features that break game balance or are bloat</li>
 <li>✗ Mechanics that feel out of place</li>
 <li>✗ Modern Minecraft's complexity creep</li>
 <li>✗ Changes that alter 1.12's core feel</li>
@@ -41,7 +44,7 @@
 <ul style="list-style-type: none; padding-left: 0;">
 <li>✓ Seeking vanilla+ experience</li>
 <li>✓ Performance enthusiasts</li>
-<li>✓ Server administrators</li>
+<li>✓ Server admins</li>
 </ul>
 </div>
 </div>
@@ -51,6 +54,7 @@
 <ul style="padding-left: 20px; color: #000000;">
 <li><span style="color: #0000ff;"><a style="color: #0000ff;" href="https://docs.google.com/document/d/1UxXKZL6VM1y7t7XErz7cUEXX0JEJ_ntFB7A-NdE8Prk/edit?tab=t.0" target="_blank" rel="noopener noreferrer"><strong>Click here to view guide!</strong></a></span></li>
 <li>Recommended mods &amp; resource packs to add (w/ notes!)</li>
+<li>Detailed tips and guidelines for development and performance</li>
 <li>Incompatible mod list</li>
 <li>Full pack development guidelines! (not sure what mod to use? read that!)</li>
 <li>Full list of included mods in Modernized 1.12</li>
@@ -58,7 +62,7 @@
 <!-- Performance Column -->
 <h3 style="color: #1976d2; margin-top: 0;">🚄 Cutting-Edge Performance</h3>
 <ul style="padding-left: 20px; color: #000000;">
-<li><strong>Java 21/22 compatibility</strong> via Cleanroom Loader</li>
+<li><strong>Java 24 compatibility</strong> via Cleanroom Loader</li>
 <li>50+ modern performance mods</li>
 <li>Pre-configured for maximum compatibility</li>
 <li>Modder-reviewed optimizations</li>
@@ -66,7 +70,7 @@
 <!-- Development Column -->
 <h3 style="color: #388e3c; margin-top: 0;">🛠️ Development Toolkit</h3>
 <ul style="padding-left: 20px; color: #000000;">
-<li>CraftTweaker with 10+ addons</li>
+<li>CraftTweaker with 10+ addons (optionally GroovyScript support)</li>
 <li>GameStages progression system</li>
 <li>Comprehensive tweaker suite</li>
 <li>Advanced debugging tools</li>
@@ -80,20 +84,9 @@
 <li>Compatibility guides</li>
 </ul>
 <!-- Cleanroom Column -->
-<h3 style="color: #835303; margin-top: 0;">☕ Java 21/22 Guide (Cleanroom)</h3>
-<div class="spoiler">
-<p>More detailed instructions coming soon!</p>
-<ol>
-<li>Install Modernized 1.12 normally to your modloader of choice</li>
-<li>Download the ZIP file of the <span style="color: #0000ff;"><a style="color: #0000ff;" href="https://github.com/CleanroomMC/Cleanroom/releases" target="_blank" rel="noopener noreferrer">latest Cleanroom release</a></span> (eg,&nbsp;Cleanroom-MMC-instance-0.2.4-alpha.zip)</li>
-<li>Drag ZIP file into Prism Launcher</li>
-<li>Click Edit for the imported project</li>
-<li>Click Settings, check Java Installation, click Auto-detect, select Java 21 or Java 22 (download these from Oracle if you don't have either!)</li>
-<li>Open the folder for the project by clicking "Folder" on the main Prism window</li>
-<li>Move all folders from Modernized 1.12 (mods, config, etc) to the ".minecraft" folder of the folder you opened last step.</li>
-<li>Play!</li>
-</ol>
-</div>
+<h3 style="color: #835303; margin-top: 0;">☕ Java 24 Guide (Cleanroom Loader)</h3>
+<p>NOTE: As of v1.1.5, Cleanroom Loader is optionally installed via FileDirector for all launchers!
+No setup needed!</p>
 <p>&nbsp;</p>
 <h2 style="color: #1976d2; border-bottom: 2px solid #1976D2; padding-bottom: 8px;">📋 <strong>Included Features</strong></h2>
 <!-- Performance Mods -->
@@ -127,7 +120,7 @@
 <h4 style="color: #1976d2; margin-top: 0;">⚙️ For Developers</h4>
 <p style="color: #000000;">A complete toolkit for modpack development:</p>
 <ul style="padding-left: 20px; color: #000000;">
-<li><strong>Scripting:</strong> CraftTweaker w/ 10+ addons</li>
+<li><strong>Scripting:</strong> CraftTweaker w/ 10+ addons, GroovyScript support</li>
 <li><strong>Tweaking:</strong> Universal Tweaks, RLMixins, RLTweaker2</li>
 <li><strong>Progression:</strong> GameStages, Tool Progression, custom events</li>
 <li><strong>Tools:</strong> MPUtils, config checkers, debugging</li>
