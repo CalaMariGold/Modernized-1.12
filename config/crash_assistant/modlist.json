@@ -1,8 +1,8 @@
 {
-  "forge-1.12.2-14.23.5.2860.jar (modloader)": {
-    "jarName": "forge-1.12.2-14.23.5.2860.jar (modloader)",
+  "universal.jar (modloader)": {
+    "jarName": "universal.jar (modloader)",
     "modId": "forge",
-    "version": "forge-1.12.2-14.23.5.2860.jar"
+    "version": "universal.jar"
   },
   "!!!CrashAssistant-forge-1.12.2-1.10.19.jar": {
     "jarName": "!!!CrashAssistant-forge-1.12.2-1.10.19.jar",
@@ -13,6 +13,11 @@
     "jarName": "!configanytime-3.0.jar",
     "modId": "configanytime",
     "version": "3.0"
+  },
+  "!improved-relauncher-0.3.6.jar": {
+    "jarName": "!improved-relauncher-0.3.6.jar",
+    "modId": "improved-relauncher",
+    "version": "0.3.6"
   },
   "!mixinbooter-10.7.jar": {
     "jarName": "!mixinbooter-10.7.jar",
@@ -502,6 +507,11 @@
     "jarName": "roidtweaker-1.2.1.jar",
     "modId": "roidtweaker",
     "version": "1.2.1"
+  },
+  "RoughlyEnoughIDs-2.2.3.jar": {
+    "jarName": "RoughlyEnoughIDs-2.2.3.jar",
+    "modId": "jeid",
+    "version": "2.2.3"
   },
   "serializationisbad-1.5.2.jar": {
     "jarName": "serializationisbad-1.5.2.jar"
