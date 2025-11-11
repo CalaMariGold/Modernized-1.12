@@ -1,8 +1,8 @@
 {
-  "universal.jar (modloader)": {
-    "jarName": "universal.jar (modloader)",
+  "forge-1.12.2-14.23.5.2860.jar (modloader)": {
+    "jarName": "forge-1.12.2-14.23.5.2860.jar (modloader)",
     "modId": "forge",
-    "version": "universal.jar"
+    "version": "forge-1.12.2-14.23.5.2860.jar"
   },
   "!!!CrashAssistant-forge-1.12.2-1.10.19.jar": {
     "jarName": "!!!CrashAssistant-forge-1.12.2-1.10.19.jar",
@@ -13,11 +13,6 @@
     "jarName": "!configanytime-3.0.jar",
     "modId": "configanytime",
     "version": "3.0"
-  },
-  "!improved-relauncher-0.3.6.jar": {
-    "jarName": "!improved-relauncher-0.3.6.jar",
-    "modId": "improved-relauncher",
-    "version": "0.3.6"
   },
   "!mixinbooter-10.7.jar": {
     "jarName": "!mixinbooter-10.7.jar",
