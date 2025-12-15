@@ -135,6 +135,20 @@
       "pass": 3
     }
   },
-  "mapModdedElementsPre": {},
-  "mapModdedElementsPost": {}
+  "mapModdedElementsPre": {
+    "gnetum_unknown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    }
+  },
+  "mapModdedElementsPost": {
+    "gnetum_unknown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    }
+  }
 }
