@@ -1,18 +1,17 @@
-Check out the kitchen sink "ultimate edition" version of this pack: https://github.com/CalaMariGold/Modernized-1.12-Ultimate-Edition
-<h1 style="color: #2196f3; text-align: center;">🚀 <strong>Modernized 1.12&nbsp;🚀</strong></h1>
-<h3 style="color: #666666; text-align: center;">The Ultimate Vanilla+ 1.12.2 Foundation &amp; Development Template</h3>
-<p style="text-align: center;"><span style="font-size: 16px;"><strong><span style="color: #008000; font-size: 16px;">[ Active Development | Regular Updates | Community Support ]</span></strong></span></p>
-<p style="text-align: center;"><a href="https://github.com/CalaMariGold/Modernized-1.12" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/git_64h.png" alt="git" width="160" height="50" /></a> <a href="https://discord.gg/urdscFmnmm" target="_blank" rel="noopener noreferrer"><img style="display: inline; margin-left: auto; margin-right: auto;" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_64h.png" alt="discord-plural" width="176" height="50" /></a> <a href="https://ko-fi.com/calamarigoldmodpacks" target="_blank" rel="noopener noreferrer"><img style="display: inline; margin-left: auto; margin-right: auto;" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/kofi-singular_64h.png" alt="kofi-singular" width="166" height="50" /></a></p>
-<p style="text-align: center;"><a href="https://mmcreviews.com/all/modpacks/modernized-112/" target="_blank" rel="noopener noreferrer"><img src="https://images-ext-1.discordapp.net/external/6vhMFHqBNp8x1Zp2E4PLBE0fypinEPl_Xz8nsa7cAbo/https/150012028.v2.pressablecdn.com/wp-content/uploads/2024/01/cozy_64h.png" alt="Modded Minecraft Reviews" width="157" height="50" /></a> <a href="https://docs.google.com/document/d/1UxXKZL6VM1y7t7XErz7cUEXX0JEJ_ntFB7A-NdE8Prk/edit?tab=t.3wsoz3hyx2jm" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/19edca30bae6e859acdd48e56af406b84119ffc8/assets/cozy/documentation/changelog_64h.png" alt="" width="146" height="50" /></a></p>
+<h1 style="color: #2196f3; text-align: center;">🚀 <strong>Modernized 1.12 - The Apocalypse&nbsp;🚀</strong></h1>
+<h3 style="color: #666666; text-align: center;">A Fork of the Modernized 1.12 Modpack By CalimariGold with an Apocalyptic Theme</h3>
+<p style="text-align: center;"><span style="font-size: 16px;"><strong><span style="color: #008000; font-size: 16px;">[ Active Development ]</span></strong></span></p>
+<p style="text-align: center;"><a href="https://github.com/M3RGeo/Modernized-1.12-The-Apocalypse" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/git_64h.png" alt="git" width="160" height="50" /></a></p>
+<p style="text-align: center;"><a href="https://github.com/M3RGeo/Modpack-Versions/blob/main/Modernized%201.12%20-%20The%20Apocalypse/changelog.txt" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/19edca30bae6e859acdd48e56af406b84119ffc8/assets/cozy/documentation/changelog_64h.png" alt="" width="146" height="50" /></a></p>
 <h3 style="color: #3366ff; margin-top: 0;"><span style="font-size: 24px;">⭐ <strong>Summary</strong></span></h3>
-<p style="font-size: 15px; line-height: 1.6;"><strong>Modernized 1.12</strong> is your all-in-one solution for bringing Minecraft 1.12.2 into 2025! Whether you're a player seeking the cleanest vanilla+ experience or a modpack developer looking for the perfect foundation, this pack delivers with full performance optimizations, Java 24 compatibility, extensive QoL improvements, and a complete development toolkit.</p>
-<h3 style="color: #3366ff; margin-top: 0;"><span style="font-size: 24px;">💫 <strong>Our Philosophy</strong></span></h3>
-<p style="font-size: 15px; line-height: 1.8; margin-bottom: 15px;">This isn't another backport modpack. We believe Minecraft 1.12 represents a golden era of the game, with its perfect balance of mechanics, performance, and charm. While newer versions of Minecraft have taken different directions, we're preserving and enhancing what made 1.12 special. We also fully believe 1.12 is the easiest version to start modpack development and completely change how the game works from the ground up, especially with this template modpack to get you started!<br />Think of this as <em>1.12 Enhanced</em> rather than <em>Modern Minecraft Backported</em>.&nbsp;<br /><strong>We're building upon what made this version great, not trying to turn it into something it's not.</strong></p>
-<h3 style="color: #3366ff; margin-top: 0;"><span style="font-size: 24px;">📜 <strong>License</strong></span></h3>
+<p style="font-size: 15px; line-height: 1.6;"><strong>Modernized 1.12 - The Apocalypse</strong> is an Apocalypse themed modpack where exploring the wolrd while trying to survive the hordes of zombies and radation is a must, it is forked from and based on the Modernized 1.12 Modpack By CalimariGold.</p>
+<h3 style="color: #3366ff; margin-top: 0;"><span style="font-size: 24px;">💫 <strong>Version Locked:</strong></span></h3>
+<p style="font-size: 15px; line-height: 1.8; margin-bottom: 15px;">Minecraft 1.12 was specifically chosen as the base for this modpack due to the work of the cleanroom team and other 1.12 developers keeping the version alive and even more optimised than some of the newer versions of the game. Outside of that and the main reason for the modpack being locked to the 1.12.2 Version of the game is that i have looked for years and cannot find all the mods i want and need to make the modpack on newer versions worh playing, they either don't exist or the quality doesn't make it worth it. while the continued development of 1.12 mods have polished the ones i knew and used in a private modpack years ago. So i know i can build an polished modpack without worrying too much about what mods are missing and how it will affect the modpack.</strong></p>
+<h3 style="color: #3366ff; margin-top: 0;"><span style="font-size: 24px;">📜 <strong>License for both the Modernized 1.12 Modpack By CalimariGold & This Modpack</strong></span></h3>
 <p style="font-size: 15px; line-height: 1.8; margin-bottom: 15px;">You may use any part of this modpack for your own projects, including copying/modifying any of our configs and scripts. <strong>However, we highly prefer you credit this modpack</strong> on your project page and keep your project open source for the betterment of the 1.12 community! Be sure to follow the licenses for individual mods as well!</p>
 <div style="display: grid; grid-template-columns: repeat(4, 1fr);">
 <div>
-<h4 style="color: #3366ff; margin-top: 0;">✨ What We Include</h4>
+<h4 style="color: #3366ff; margin-top: 0;">✨ What We Include - Everything Past this point can be considered a work in progress as i need to redo all the below sections to this modpack still.</h4>
 <ul style="list-style-type: none; padding-left: 0;">
 <li>✓ Modern performance improvements</li>
 <li>✓ Quality of life features</li>
@@ -25,28 +24,7 @@ Check out the kitchen sink "ultimate edition" version of this pack: https://gith
 <ul style="list-style-type: none; padding-left: 0;">
 <li>✗ Features that break game balance or are bloat</li>
 <li>✗ Mechanics that feel out of place</li>
-<li>✗ Modern Minecraft's complexity creep</li>
-<li>✗ Changes that alter 1.12's core feel</li>
 </ul>
-</div>
-</div>
-<div style="display: grid; grid-template-columns: repeat(4, 1fr);">
-<div>
-<h4 style="color: #ff8848;">👨&zwj;💻 Perfect for Developers</h4>
-<ul style="list-style-type: none; padding-left: 0;">
-<li>✓ Starting new modpack projects</li>
-<li>✓ Modpack jam participants</li>
-<li>✓ Content creators</li>
-</ul>
-</div>
-<div>
-<h4 style="color: #ff8848;">🎮 Perfect for Players:</h4>
-<ul style="list-style-type: none; padding-left: 0;">
-<li>✓ Seeking vanilla+ experience</li>
-<li>✓ Performance enthusiasts</li>
-<li>✓ Server admins</li>
-</ul>
-</div>
 </div>
 <h2 style="color: #1976d2; border-bottom: 2px solid #1976D2; padding-bottom: 8px;">✨ <strong>Key Features</strong></h2>
 <!-- Guide Column -->
