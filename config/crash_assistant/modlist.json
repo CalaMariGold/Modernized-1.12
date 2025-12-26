@@ -4,12 +4,12 @@
     "modId": "forge",
     "version": "forge-1.12.2-14.23.5.2860.jar"
   },
-  "!!!CrashAssistant-forge-1.12.2-1.10.27.jar": {
-    "jarName": "!!!CrashAssistant-forge-1.12.2-1.10.27.jar",
+  "!!!CrashAssistant-forge-1.12.2-1.10.28.jar": {
+    "jarName": "!!!CrashAssistant-forge-1.12.2-1.10.28.jar",
     "modId": "crash_assistant",
-    "version": "1.10.27",
-    "curseForgeHash": 779469533,
-    "modrinthHash": "ef411a96d1ea6c5a9eea03eadd6d61980f3d41e6"
+    "version": "1.10.28",
+    "curseForgeHash": 1494370398,
+    "modrinthHash": "afec88671087ca9ebefff13893d8b952ff0b5603"
   },
   "!configanytime-3.0.jar": {
     "jarName": "!configanytime-3.0.jar",
@@ -707,12 +707,12 @@
     "curseForgeHash": 258962057,
     "modrinthHash": "152a6884e6f1807be38e32030bede5d626fea854"
   },
-  "roidtweaker-1.2.1.jar": {
-    "jarName": "roidtweaker-1.2.1.jar",
+  "roidtweaker-1.2.2.jar": {
+    "jarName": "roidtweaker-1.2.2.jar",
     "modId": "roidtweaker",
-    "version": "1.2.1",
-    "curseForgeHash": 1924995079,
-    "modrinthHash": "55323f11312612b5e043149b4b0cae34b3b12e27"
+    "version": "1.2.2",
+    "curseForgeHash": 1375653001,
+    "modrinthHash": "e81c507f2ea43ff2642e48d65c8d4c1b18f44bcb"
   },
   "RoughlyEnoughIDs-2.2.3.jar": {
     "jarName": "RoughlyEnoughIDs-2.2.3.jar",
