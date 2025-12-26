@@ -1,0 +1,8 @@
+// DO NOT EDIT!
+[
+    {
+        "allowMissing": true,
+        "blockId": "quark:candle",
+        "fluidTags": "builtin:material_water"
+    }
+]

@@ -1,0 +1,64 @@
+{
+    "min": 2,
+    "max": 2,
+    "trades": [
+        {
+            "item_1": {
+                "item": "minecraft:hay_block"
+            },
+            "output": {
+                "item": "minecraft:emerald"
+            },
+            "max_uses": 2
+        },
+        {
+            "item_1": {
+                "item": "minecraft:potion",
+                "nbt": "{Potion: \"minecraft:water\"}"
+            },
+            "output": {
+                "item": "minecraft:emerald"
+            },
+            "max_uses": 2
+        },
+        {
+            "item_1": {
+                "item": "minecraft:baked_potato"
+            },
+            "output": {
+                "item": "minecraft:emerald"
+            },
+            "max_uses": 2
+        },
+        {
+            "item_1": {
+                "item": "minecraft:milk_bucket"
+            },
+            "output": {
+                "item": "minecraft:emerald",
+                "count": 2
+            },
+            "max_uses": 2
+        },
+        {
+            "item_1": {
+                "item": "minecraft:water_bucket"
+            },
+            "output": {
+                "item": "minecraft:emerald",
+                "count": 2
+            },
+            "max_uses": 2
+        },
+        {
+            "item_1": {
+                "item": "minecraft:fermented_spider_eye"
+            },
+            "output": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "max_uses": 2
+        }
+    ]
+}

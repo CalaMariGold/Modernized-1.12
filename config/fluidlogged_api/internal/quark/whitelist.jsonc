@@ -1,0 +1,58 @@
+// DO NOT EDIT!
+[
+    {
+        "allowMissing": true,
+        "blockId": [
+            "quark:andesite_speleothem",
+            "quark:basalt_speleothem",
+            "quark:black_ash",
+            "quark:candle",
+            "quark:crystal_pane",
+            "quark:diorite_speleothem",
+            "quark:framed_glass_pane",
+            "quark:glowstone_dust_block",
+            "quark:granite_speleothem",
+            "quark:grate",
+            "quark:gunpowder_block",
+            "quark:iron_ladder",
+            "quark:iron_rod",
+            "quark:jasper_speleothem",
+            "quark:limestone_speleothem",
+            "quark:marble_speleothem",
+            "quark:netherrack_speleothem",
+            "quark:paper_lantern",
+            "quark:paper_wall",
+            "quark:paper_wall_big",
+            "quark:paper_wall_sakura",
+            "quark:pipe",
+            "quark:redstone_inductor",
+            "quark:redstone_randomizer",
+            "quark:roots",
+            "quark:roots_black_flower",
+            "quark:roots_blue_flower",
+            "quark:roots_white_flower",
+            "quark:rope",
+            "quark:slate_speleothem",
+            "quark:stone_speleothem",
+            "quark:tiny_potato"
+        ]
+    },
+    {
+        "allowMissing": true,
+        "blockId": "quark:chute",
+        "boxes": {"min": 10, "max": 16}
+    },
+    {
+        "allowMissing": true,
+        "blockId": [
+            "quark:leaf_carpet",
+            "quark:monster_box"
+        ],
+        "canFluidFlow": true
+    },
+    {
+        "allowMissing": true,
+        "blockId": "quark:rain_detector",
+        "canFluidFlow": ["up", "north", "south", "east", "west"]
+    }
+]

@@ -1,0 +1,408 @@
+{
+    "min": 5,
+    "max": 5,
+    "trades": [
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:tallgrass",
+                "meta": 2
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:reeds"
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:pumpkin"
+            },
+            "max_uses": 4
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:yellow_flower"
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:red_flower"
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:red_flower",
+                "meta": 2
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:red_flower",
+                "meta": 3
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:red_flower",
+                "meta": 4
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:red_flower",
+                "meta": 5
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:red_flower",
+                "meta": 6
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:red_flower",
+                "meta": 7
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:red_flower",
+                "meta": 8
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:red_flower",
+                "meta": 1
+            },
+            "max_uses": 8
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:wheat_seeds"
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:pumpkin_seeds"
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:melon_seeds"
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:beetroot_seeds"
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:dye",
+                "meta": {
+                    "min": 0,
+                    "max": 15
+                },
+                "count": 3
+            },
+            "max_uses": 12,
+            "duplicates": true
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:vine",
+                "count": 3
+            },
+            "max_uses": 4
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:brown_mushroom",
+                "count": 3
+            },
+            "max_uses": 4
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:red_mushroom",
+                "count": 3
+            },
+            "max_uses": 4
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:waterlily",
+                "count": 5
+            },
+            "max_uses": 2
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:sand",
+                "count": 8
+            },
+            "max_uses": 8
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:sand",
+                "meta": 1,
+                "count": 4
+            },
+            "max_uses": 6
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "da"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 1
+            },
+            "output": {
+                "item": "da:moss_block",
+                "count": 2
+            },
+            "max_uses": 5
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 2
+            },
+            "output": {
+                "item": "oe:sea_pickle"
+            },
+            "max_uses": 5
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "output": {
+                "item": "oe:spawn_bucket",
+                "nbt": "{EntityTag: {id: \"oe:tropical_fish\"}}"
+            },
+            "max_uses": 4
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "output": {
+                "item": "oe:spawn_bucket",
+                "nbt": "{EntityTag: {id: \"oe:pufferfish\"}}"
+            },
+            "max_uses": 4
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "output": {
+                "item": "oe:spawn_bucket",
+                "nbt": "{EntityTag: {id: \"oe:crab\"}}"
+            },
+            "max_uses": 4
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "output": {
+                "item": "oe:spawn_bucket",
+                "nbt": "{EntityTag: {id: \"oe:lobster\"}}"
+            },
+            "max_uses": 4
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "output": {
+                "item": "oe:kelp"
+            },
+            "max_uses": 12
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "output": {
+                "item": "minecraft:cactus"
+            },
+            "max_uses": 8
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 4
+            },
+            "output": {
+                "item": "minecraft:slime_ball"
+            },
+            "max_uses": 5
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 5
+            },
+            "output": {
+                "item": "oe:nautilus_shell"
+            },
+            "max_uses": 5
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 5
+            },
+            "output": {
+                "ore": "treeSapling"
+            },
+            "max_uses": 8,
+            "duplicates": true
+        }
+    ]
+}
