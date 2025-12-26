@@ -37,12 +37,12 @@
     "curseForgeHash": 2239901469,
     "modrinthHash": "acd8a82862086b81e441a914af207881cb62955f"
   },
-  "+Fugue-0.22.4.jar": {
-    "jarName": "+Fugue-0.22.4.jar",
+  "+Fugue-0.22.6.jar": {
+    "jarName": "+Fugue-0.22.6.jar",
     "modId": "fugue",
-    "version": "0.22.4",
-    "curseForgeHash": 4211723190,
-    "modrinthHash": "40e5d988ff8e215436e2e164c77062579304ce75"
+    "version": "0.22.6",
+    "curseForgeHash": 1455217593,
+    "modrinthHash": "c61eac0a7c0a82071c9093932bd39013a11acc8f"
   },
   "[MC-1.12.2] Key Binding Patch v1.3.3.3 - 2024-12-1.jar": {
     "jarName": "[MC-1.12.2] Key Binding Patch v1.3.3.3 - 2024-12-1.jar",
@@ -413,12 +413,12 @@
     "curseForgeHash": 266308205,
     "modrinthHash": "97debf6181d65ace6123b8332b801dce520ae0fd"
   },
-  "HadEnoughItems_1.12.2-4.29.12.jar": {
-    "jarName": "HadEnoughItems_1.12.2-4.29.12.jar",
+  "HadEnoughItems_1.12.2-4.29.13.jar": {
+    "jarName": "HadEnoughItems_1.12.2-4.29.13.jar",
     "modId": "jei",
-    "version": "4.29.12",
-    "curseForgeHash": 1362681107,
-    "modrinthHash": "5898366627758a69ce2a28251c1f64a91ee0e4ee"
+    "version": "4.29.13",
+    "curseForgeHash": 3220568388,
+    "modrinthHash": "510d2b5c9ddd4f6f087ab62eb547cd589653e6d1"
   },
   "Highlighter-1.12.2-forge-1.1.7.jar": {
     "jarName": "Highlighter-1.12.2-forge-1.1.7.jar",
@@ -857,12 +857,12 @@
     "curseForgeHash": 3724894852,
     "modrinthHash": "dece84febbf3d97b68421510e5037ba77b93e39b"
   },
-  "zenutils-1.26.9.jar": {
-    "jarName": "zenutils-1.26.9.jar",
+  "zenutils-1.26.10.jar": {
+    "jarName": "zenutils-1.26.10.jar",
     "modId": "zenutils",
-    "version": "1.26.9",
-    "curseForgeHash": 3232490486,
-    "modrinthHash": "0049fc72ce6aac1f0c67ff091b0b13b459b94568"
+    "version": "1.26.10",
+    "curseForgeHash": 1149547020,
+    "modrinthHash": "834cd0b657b617f7617d4bbe03903acd512a8da7"
   },
   "zspacket-0.0.1.jar": {
     "jarName": "zspacket-0.0.1.jar",
