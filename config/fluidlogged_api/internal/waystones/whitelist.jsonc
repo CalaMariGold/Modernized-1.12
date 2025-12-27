@@ -1,0 +1,14 @@
+// DO NOT EDIT!
+[
+    {
+        "blockId": "waystones:waystone",
+        "canFluidFlow": true,
+        "states": {"base": false}
+    },
+    {
+        "blockId": "waystones:waystone",
+        "boxes": {"min": 0, "max": 4},
+        "canFluidFlow": ["up", "north", "south", "east", "west"],
+        "states": {"base": true}
+    }
+]

@@ -19,13 +19,13 @@
 	#Enable/Disable the Game Loading Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Modernized 1.12 is loading"
+	description = "Modernized 1.12 - The Apocalypse is loading"
 	#The second line of text under the app name
 	state = "Game Starting..."
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft 1.12.2, but modernized"
+	largeImageText = "It's an Apocalypse!"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -44,7 +44,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft 1.12.2, but modernized"
+	largeImageText = "It's an Apocalypse!"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -63,7 +63,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft 1.12.2, but modernized"
+	largeImageText = "It's an Apocalypse!"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -82,7 +82,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft 1.12.2, but modernized"
+	largeImageText = "It's an Apocalypse!"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -101,7 +101,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft 1.12.2, but modernized"
+	largeImageText = "It's an Apocalypse!"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -120,7 +120,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft 1.12.2, but modernized"
+	largeImageText = "It's an Apocalypse!"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -139,7 +139,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft 1.12.2, but modernized"
+	largeImageText = "It's an Apocalypse!"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -158,7 +158,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft 1.12.2, but modernized"
+	largeImageText = "It's an Apocalypse!"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
@@ -175,7 +175,7 @@
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft 1.12.2, but modernized"
+	largeImageText = "It's an Apocalypse!"
 	#The Asset ID of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
