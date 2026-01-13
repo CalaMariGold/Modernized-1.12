@@ -522,12 +522,12 @@
     "curseForgeHash": 2740281942,
     "modrinthHash": "f0bdbf6f4257e392e59023289998aaa8c295df47"
   },
-  "modularui-3.0.7.jar": {
-    "jarName": "modularui-3.0.7.jar",
+  "modularui-3.0.8.jar": {
+    "jarName": "modularui-3.0.8.jar",
     "modId": "modularui",
-    "version": "3.0.7",
-    "curseForgeHash": 2582516106,
-    "modrinthHash": "13f0f65e1b5adc55556d5e8c552382c904cd48c0"
+    "version": "3.0.8",
+    "curseForgeHash": 867453808,
+    "modrinthHash": "3006ff01765a1366be42461014d793d88211e8e7"
   },
   "MoreTweaker-1.0.19.jar": {
     "jarName": "MoreTweaker-1.0.19.jar",
@@ -571,12 +571,12 @@
     "curseForgeHash": 2807305159,
     "modrinthHash": "51a648fbc1a527ea0e39e29d8fa9e24599aa64f3"
   },
-  "Nothirium-1.12.2-0.4.8-beta.jar": {
-    "jarName": "Nothirium-1.12.2-0.4.8-beta.jar",
+  "Nothirium-1.12.2-0.4.9-beta.jar": {
+    "jarName": "Nothirium-1.12.2-0.4.9-beta.jar",
     "modId": "nothirium",
-    "version": "0.4.8-beta",
-    "curseForgeHash": 4229592357,
-    "modrinthHash": "d9aadf32c79e5e763d150e12ce6162f1009f9dd1"
+    "version": "0.4.9-beta",
+    "curseForgeHash": 1143501325,
+    "modrinthHash": "b70d60e9ebd5e84962c4ddd6abfd2bbde178cafb"
   },
   "OceanicExpanse-1.2.2.jar": {
     "jarName": "OceanicExpanse-1.2.2.jar",
@@ -864,12 +864,12 @@
     "curseForgeHash": 3724894852,
     "modrinthHash": "dece84febbf3d97b68421510e5037ba77b93e39b"
   },
-  "zenutils-1.26.11.jar": {
-    "jarName": "zenutils-1.26.11.jar",
+  "zenutils-1.26.12.jar": {
+    "jarName": "zenutils-1.26.12.jar",
     "modId": "zenutils",
-    "version": "1.26.11",
-    "curseForgeHash": 3835623009,
-    "modrinthHash": "84d7bed4ab6190ae69134783acc112a8de7615a4"
+    "version": "1.26.12",
+    "curseForgeHash": 439892188,
+    "modrinthHash": "437d80c2e94ddc9e08b9c25a2274cf14b012bc9f"
   },
   "zspacket-0.0.1.jar": {
     "jarName": "zspacket-0.0.1.jar",
