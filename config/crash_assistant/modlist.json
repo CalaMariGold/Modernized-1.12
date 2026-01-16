@@ -597,6 +597,13 @@
     "curseForgeHash": 433374114,
     "modrinthHash": "91314c37ce7182f9bc0a9ac90d16dfaf87f4dc38"
   },
+  "OptiNotFine-1.0.jar": {
+    "jarName": "OptiNotFine-1.0.jar",
+    "modId": "optinotfine",
+    "version": "1.0",
+    "curseForgeHash": 205448344,
+    "modrinthHash": "8f65b555b2d5866f83b3b693c5e911e774de686c"
+  },
   "PaperFixes-2.0.1.jar": {
     "jarName": "PaperFixes-2.0.1.jar",
     "modId": "paperfixes",
