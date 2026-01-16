@@ -30,12 +30,12 @@
     "curseForgeHash": 2239322327,
     "modrinthHash": "13d7c102ae616f8fa74b4ce5f2d8cc26fc397026"
   },
-  "!Red-Core-MC-1.8-1.12-0.7.jar": {
-    "jarName": "!Red-Core-MC-1.8-1.12-0.7.jar",
+  "!Red-Core-MC-1.8-1.12-0.7.1.jar": {
+    "jarName": "!Red-Core-MC-1.8-1.12-0.7.1.jar",
     "modId": "redcore",
-    "version": "0.7",
-    "curseForgeHash": 3937023730,
-    "modrinthHash": "ff2fde42c10fae1e127f024463dd965004627ce4"
+    "version": "0.7.1",
+    "curseForgeHash": 2660540505,
+    "modrinthHash": "d272efd0c807908138edbac8e6cb2d90127ac01a"
   },
   "+Fugue-0.22.6.jar": {
     "jarName": "+Fugue-0.22.6.jar",
@@ -871,12 +871,12 @@
     "curseForgeHash": 3724894852,
     "modrinthHash": "dece84febbf3d97b68421510e5037ba77b93e39b"
   },
-  "zenutils-1.26.12.jar": {
-    "jarName": "zenutils-1.26.12.jar",
+  "zenutils-1.26.13.jar": {
+    "jarName": "zenutils-1.26.13.jar",
     "modId": "zenutils",
-    "version": "1.26.12",
-    "curseForgeHash": 439892188,
-    "modrinthHash": "437d80c2e94ddc9e08b9c25a2274cf14b012bc9f"
+    "version": "1.26.13",
+    "curseForgeHash": 3400025629,
+    "modrinthHash": "cd66e3e6dcec8cbdd2fdbeb7fcd6637bf0d82bde"
   },
   "zspacket-0.0.1.jar": {
     "jarName": "zspacket-0.0.1.jar",
