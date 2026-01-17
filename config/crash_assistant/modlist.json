@@ -557,12 +557,12 @@
     "curseForgeHash": 2313922075,
     "modrinthHash": "9280f1ece1bb509bb573de3b956d102152f06e6b"
   },
-  "Nether-API-v1.3.0-mc1.12.2.jar": {
-    "jarName": "Nether-API-v1.3.0-mc1.12.2.jar",
+  "Nether-API-v1.4.2-mc1.12.2.jar": {
+    "jarName": "Nether-API-v1.4.2-mc1.12.2.jar",
     "modId": "nether_api",
-    "version": "v1.3.0-mc1.12.2",
-    "curseForgeHash": 3979032308,
-    "modrinthHash": "cb3531df09033ee541d286651cee43cebe53d513"
+    "version": "1.4.2",
+    "curseForgeHash": 3054348510,
+    "modrinthHash": "594494bb496e21cbae011c15e5f9e6bd75fa4724"
   },
   "NoiseThreader-1.1.2.jar": {
     "jarName": "NoiseThreader-1.1.2.jar",
