@@ -3,9 +3,9 @@
 
 {
   // Cleanroom version to launch (auto-selected on first run)
-  "selectedVersion": "0.3.34-alpha",
+  "selectedVersion": "0.3.35-alpha",
   // Latest Cleanroom version seen by the relauncher (informational)
-  "latestVersion": "0.3.34-alpha",
+  "latestVersion": "0.3.35-alpha",
   // Preferred Java vendor: "adoptium" (Temurin) or "graalvm" (GraalVM Community JDK).
   // If chosen vendor is unavailable for your OS/arch/version, the relauncher falls back to Adoptium automatically.
   "javaVendor": "graalvm",
