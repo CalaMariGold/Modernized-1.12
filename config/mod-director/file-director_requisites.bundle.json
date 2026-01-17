@@ -12,12 +12,6 @@
             "installationPolicy": {
                 "description": "Downloads OptiFine from the official site."
             }
-        },
-        {
-            "url": "https://cdn.modrinth.com/data/65qOM4nb/versions/1m3gvzYh/Nether-API-v1.3.0-mc1.12.2.jar",
-            "installationPolicy": {
-                "description": "Downloads NetherAPI from Modrinth."
-            }
         }
     ],
 
