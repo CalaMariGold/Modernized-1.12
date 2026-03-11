@@ -1,8 +1,12 @@
+// no_run
+/* IMPORTANT: REMOVE THE ABOVE LINE TO RUN THE SCRIPT */
+
 
 // Auto generated groovyscript example file
+
+
 // MODS_LOADED: futuremc
 
-/*
 log 'mod \'futuremc\' detected, running script'
 
 // Blast Furnace:
@@ -113,5 +117,3 @@ mods.futuremc.stonecutter.recipeBuilder()
     .input(item('minecraft:gold_ingot'))
     .output(item('minecraft:clay'))
     .register()
-
-*/

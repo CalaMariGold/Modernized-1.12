@@ -1,7 +1,7 @@
+// no_run
+/* IMPORTANT: REMOVE THE ABOVE LINE TO RUN THE SCRIPT */
 
 // Auto generated groovyscript example file
-
-/*
 
 log 'running Vanilla Minecraft example'
 
@@ -222,4 +222,4 @@ minecraft.player.setStartingItems(true, item('minecraft:clay').withNbt([display:
 minecraft.rarity.set(textformat('AQUA'), item('minecraft:diamond'))
 minecraft.rarity.set(textformat('RESET'), item('minecraft:enchanted_book'))
 
-*/
+

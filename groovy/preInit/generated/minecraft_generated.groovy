@@ -1,7 +1,8 @@
+// no_run
+/* IMPORTANT: REMOVE THE ABOVE LINE TO RUN THE SCRIPT */
 
 // Auto generated groovyscript example file
 
-/*
 
 import net.minecraft.item.ItemFood
 import net.minecraft.world.IBlockAccess
@@ -75,5 +76,3 @@ content.registerBlock('dragon_egg_lamp', (new Block(blockMaterial('redstone_ligh
         return BlockFaceShape.UNDEFINED
     }
 }).setLightLevel(1.0F))
-
-*/

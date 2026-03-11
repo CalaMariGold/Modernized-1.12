@@ -1,8 +1,11 @@
+// no_run
+/* IMPORTANT: REMOVE THE ABOVE LINE TO RUN THE SCRIPT */
+
 
 // Auto generated groovyscript example file
-// MODS_LOADED: jei
-/*
 
+
+// MODS_LOADED: jei
 
 import mezz.jei.api.ingredients.VanillaTypes
 
@@ -57,5 +60,3 @@ mods.jei.ingredient.hide(VanillaTypes.ITEM, item('minecraft:bed:*'))
 
 mods.jei.ingredient.add(item('minecraft:stone:1').withNbt([display:[Name:'Special Granite']]))
 mods.jei.ingredient.add(VanillaTypes.ITEM, item('minecraft:bed').withNbt([display:[Name:'Beds come in 16 different colors!']]))
-
-*/

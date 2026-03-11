@@ -1,7 +1,9 @@
+// no_run
+/* IMPORTANT: REMOVE THE ABOVE LINE TO RUN THE SCRIPT */
 
 // Auto generated groovyscript example file
 
-/*
+
 log 'running In-World Crafting example'
 
 // Burning Conversion:
@@ -164,5 +166,3 @@ in_world_crafting.piston_push.recipeBuilder()
     .output(item('minecraft:gold_ingot'))
     .startCondition({entityItem, itemStack, pushingAgainst -> pushingAgainst.getBlock() == block('minecraft:clay') })
     .register()
-
-*/
