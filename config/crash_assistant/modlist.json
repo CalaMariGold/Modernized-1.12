@@ -37,12 +37,12 @@
     "curseForgeHash": 2660540505,
     "modrinthHash": "d272efd0c807908138edbac8e6cb2d90127ac01a"
   },
-  "+Fugue-0.23.1.jar": {
-    "jarName": "+Fugue-0.23.1.jar",
+  "+Fugue-0.23.2.jar": {
+    "jarName": "+Fugue-0.23.2.jar",
     "modId": "fugue",
-    "version": "0.23.1",
-    "curseForgeHash": 1490778930,
-    "modrinthHash": "71262bf3c3f0f3979cce787d3bb6435b8242cc58"
+    "version": "0.23.2",
+    "curseForgeHash": 1717462198,
+    "modrinthHash": "af07026bfd1a3239350805b2e8a002f583983d7d"
   },
   "[MC-1.12.2] Key Binding Patch v1.3.3.3 - 2024-12-1.jar": {
     "jarName": "[MC-1.12.2] Key Binding Patch v1.3.3.3 - 2024-12-1.jar",
@@ -350,12 +350,12 @@
     "curseForgeHash": 4123246348,
     "modrinthHash": "dec0d57f19fe0296ed5c21fc4e04b6b64b35cc59"
   },
-  "fermiumasm-5.28.jar": {
-    "jarName": "fermiumasm-5.28.jar",
+  "fermiumasm-5.31.jar": {
+    "jarName": "fermiumasm-5.31.jar",
     "modId": "normalasm",
-    "version": "5.28",
-    "curseForgeHash": 3947634407,
-    "modrinthHash": "d3b4d15cebe24c822556de2c77e348f20afeb064"
+    "version": "5.31",
+    "curseForgeHash": 1004759708,
+    "modrinthHash": "382ed891484edc122f4d2d4e9e3bd5f2f2b15841"
   },
   "FermiumMixins-1.0.12.jar": {
     "jarName": "FermiumMixins-1.0.12.jar",
@@ -828,6 +828,13 @@
     "version": "1.12.2-1.0.1.1",
     "curseForgeHash": 3433725586,
     "modrinthHash": "d5d6d5d0e128edd0db0458a74ceea919aea29c2c"
+  },
+  "Traders-Backport-1.12.2-1.0.1a.jar": {
+    "jarName": "Traders-Backport-1.12.2-1.0.1a.jar",
+    "modId": "traders",
+    "version": "1.0.1a",
+    "curseForgeHash": 2271246246,
+    "modrinthHash": "5468af8b171e9e43ff8647bf6a66c02b298653d7"
   },
   "UniversalTweaks-1.12.2-1.18.0.jar": {
     "jarName": "UniversalTweaks-1.12.2-1.18.0.jar",
