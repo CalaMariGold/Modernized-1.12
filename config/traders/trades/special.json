@@ -1,0 +1,100 @@
+{
+    "min": 2,
+    "max": 2,
+    "trades": [
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:packed_ice"
+            },
+            "max_uses": 6
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "minecraft:gunpowder",
+                "count": 4
+            },
+            "max_uses": 2
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "ore": "logWood",
+                "count": 8
+            },
+            "max_uses": 4,
+            "duplicates": true
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "output": {
+                "item": "minecraft:dirt",
+                "meta": 2,
+                "count": 3
+            },
+            "max_uses": 6
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 5
+            },
+            "output": {
+                "item": "minecraft:potion",
+                "nbt": "{Potion: \"minecraft:long_invisibility\"}"
+            },
+            "max_uses": 1
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "futuremc"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 6
+            },
+            "output": {
+                "item": "futuremc:blue_ice"
+            },
+            "max_uses": 6
+        },
+        {
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": {
+                    "min": 6,
+                    "max": 20
+                }
+            },
+            "output": {
+                "item": "minecraft:iron_pickaxe",
+                "functions": [
+                    {
+                        "function": "enchant_randomly",
+                        "level": {
+                            "operation": "subtract",
+                            "value_1": {
+                                "type": "item_1_count"
+                            },
+                            "value2": 1
+                        }
+                    }
+                ]
+            },
+            "max_uses": 1
+        }
+    ]
+}
