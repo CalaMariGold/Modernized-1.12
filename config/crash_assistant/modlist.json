@@ -37,12 +37,12 @@
     "curseForgeHash": 2660540505,
     "modrinthHash": "d272efd0c807908138edbac8e6cb2d90127ac01a"
   },
-  "+Fugue-0.23.2.jar": {
-    "jarName": "+Fugue-0.23.2.jar",
+  "+Fugue-0.23.3.jar": {
+    "jarName": "+Fugue-0.23.3.jar",
     "modId": "fugue",
-    "version": "0.23.2",
-    "curseForgeHash": 1717462198,
-    "modrinthHash": "af07026bfd1a3239350805b2e8a002f583983d7d"
+    "version": "0.23.3",
+    "curseForgeHash": 2455151293,
+    "modrinthHash": "988a18c12c24fe501b9d2bf3291d7242a0ce6530"
   },
   "[MC-1.12.2] Key Binding Patch v1.3.3.3 - 2024-12-1.jar": {
     "jarName": "[MC-1.12.2] Key Binding Patch v1.3.3.3 - 2024-12-1.jar",
@@ -294,6 +294,13 @@
     "curseForgeHash": 1590672741,
     "modrinthHash": "e3197fc44aa2f59897713a8889a5a56c0f8ccbf3"
   },
+  "discordrpc-1.3.3-1.12.jar": {
+    "jarName": "discordrpc-1.3.3-1.12.jar",
+    "modId": "discordrpc",
+    "version": "1.3.3",
+    "curseForgeHash": 3861409242,
+    "modrinthHash": "adda880b28eeed487f025461daef58fbc9d2b279"
+  },
   "dropt-1.12.2-1.19.4.jar": {
     "jarName": "dropt-1.12.2-1.19.4.jar",
     "modId": "dropt",
@@ -307,6 +314,13 @@
     "version": "1.0.4a",
     "curseForgeHash": 2343935250,
     "modrinthHash": "5a78666b1431a0d1a05efb6f564d0bb64fd2a147"
+  },
+  "eguilib-0.1.2.jar": {
+    "jarName": "eguilib-0.1.2.jar",
+    "modId": "eguilib",
+    "version": "0.1.0",
+    "curseForgeHash": 924073779,
+    "modrinthHash": "a89857de7535072dd3e04a9b8b78873496a52d65"
   },
   "elegant-networking-1.12-3.16.jar": {
     "jarName": "elegant-networking-1.12-3.16.jar",
@@ -420,6 +434,13 @@
     "curseForgeHash": 4077869639,
     "modrinthHash": "7587f73ed7066f09333acf2d349f3adfb11db87f"
   },
+  "groovyscript-1.3.4.jar": {
+    "jarName": "groovyscript-1.3.4.jar",
+    "modId": "groovyscript",
+    "version": "1.3.4",
+    "curseForgeHash": 2776295586,
+    "modrinthHash": "c53adbfba5c2a98c2103274abaa6a348087a03c8"
+  },
   "HadEnoughItems_1.12.2-4.29.15.jar": {
     "jarName": "HadEnoughItems_1.12.2-4.29.15.jar",
     "modId": "jei",
@@ -482,13 +503,6 @@
     "version": "1.6.1",
     "curseForgeHash": 2338303808,
     "modrinthHash": "d8853dbd60fd050709d2d687d875cb0d93806e92"
-  },
-  "loadmyresources_forge_1.0.4_MC_1.12-1.12.2.jar": {
-    "jarName": "loadmyresources_forge_1.0.4_MC_1.12-1.12.2.jar",
-    "modId": "loadmyresources",
-    "version": "1.0.4",
-    "curseForgeHash": 3562607931,
-    "modrinthHash": "a858ea488dcc2194715f1564f1b13a1382d047cc"
   },
   "LootTweaker-0.5.1+MC1.12.2-DLS0.jar": {
     "jarName": "LootTweaker-0.5.1+MC1.12.2-DLS0.jar",
@@ -707,6 +721,20 @@
     "curseForgeHash": 97899486,
     "modrinthHash": "da121ecfd63ea615de9a26276614bb0ab9306d95"
   },
+  "ResourceLoader-MC1.12.1-1.5.3.jar": {
+    "jarName": "ResourceLoader-MC1.12.1-1.5.3.jar",
+    "modId": "resourceloader",
+    "version": "1.5.3",
+    "curseForgeHash": 699442863,
+    "modrinthHash": "d8c10e6e29df5f9bc51e468642d9b3cae5f2f8e4"
+  },
+  "ResourceReloader-1.0.2.5.jar": {
+    "jarName": "ResourceReloader-1.0.2.5.jar",
+    "modId": "resourcereloader",
+    "version": "1.0.2.5",
+    "curseForgeHash": 2084754707,
+    "modrinthHash": "ad888f770d1c6e52bc4de2bbca22daf0801656d9"
+  },
   "RLFoliage-MC1.12-2.5.3.jar": {
     "jarName": "RLFoliage-MC1.12-2.5.3.jar",
     "modId": "betterfoliage",
@@ -739,13 +767,6 @@
     "jarName": "serializationisbad-1.5.2.jar",
     "curseForgeHash": 2409461816,
     "modrinthHash": "da05f7344986d425c858decb36cf776b3fe53dad"
-  },
-  "simple-rpc-1.12.2-3.1.1.jar": {
-    "jarName": "simple-rpc-1.12.2-3.1.1.jar",
-    "modId": "simplerpc",
-    "version": "3.1.1",
-    "curseForgeHash": 551122765,
-    "modrinthHash": "b3409dcd88e602d67b3a82845acd9cc27db4f040"
   },
   "Sledgehammer-1.12.2-2.0.26.jar": {
     "jarName": "Sledgehammer-1.12.2-2.0.26.jar",
@@ -829,12 +850,12 @@
     "curseForgeHash": 3433725586,
     "modrinthHash": "d5d6d5d0e128edd0db0458a74ceea919aea29c2c"
   },
-  "Traders-Backport-1.12.2-1.0.1a.jar": {
-    "jarName": "Traders-Backport-1.12.2-1.0.1a.jar",
+  "Traders-Backport-1.12.2-1.0.2.jar": {
+    "jarName": "Traders-Backport-1.12.2-1.0.2.jar",
     "modId": "traders",
     "version": "1.0.1a",
-    "curseForgeHash": 2271246246,
-    "modrinthHash": "5468af8b171e9e43ff8647bf6a66c02b298653d7"
+    "curseForgeHash": 4171792973,
+    "modrinthHash": "6f03ff21bdddf9bbf2f627b82620962ab99de667"
   },
   "UniversalTweaks-1.12.2-1.18.0.jar": {
     "jarName": "UniversalTweaks-1.12.2-1.18.0.jar",
@@ -878,12 +899,12 @@
     "curseForgeHash": 3724894852,
     "modrinthHash": "dece84febbf3d97b68421510e5037ba77b93e39b"
   },
-  "zenutils-1.26.16.jar": {
-    "jarName": "zenutils-1.26.16.jar",
+  "zenutils-1.26.17.jar": {
+    "jarName": "zenutils-1.26.17.jar",
     "modId": "zenutils",
-    "version": "1.26.16",
-    "curseForgeHash": 79566219,
-    "modrinthHash": "26598b5f78d74d75660934f9318a7b2fc248423a"
+    "version": "1.26.17",
+    "curseForgeHash": 2950513414,
+    "modrinthHash": "d7fc3e89499c02be18dcb6ad2ccc1a7af401a2f7"
   },
   "zspacket-0.0.1.jar": {
     "jarName": "zspacket-0.0.1.jar",

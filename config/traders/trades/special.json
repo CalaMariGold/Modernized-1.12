@@ -71,6 +71,22 @@
             },
             "max_uses": 6
         },
+		{
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 6
+            },
+            "output": {
+                "item": "oe:blue_ice"
+            },
+            "max_uses": 6
+        },
         {
             "item_1": {
                 "item": "minecraft:emerald",

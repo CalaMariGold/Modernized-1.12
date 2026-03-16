@@ -128,6 +128,51 @@
             },
             "max_uses": 8
         },
+		{
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "futuremc"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "futuremc:cornflower"
+            },
+            "max_uses": 12
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "futuremc"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "futuremc:lily_of_the_valley"
+            },
+            "max_uses": 7
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "palebloom"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "palebloom:eyeblossom_open"
+            },
+            "max_uses": 7
+        },
         {
             "item_1": {
                 "item": "minecraft:emerald"
@@ -185,6 +230,22 @@
             },
             "output": {
                 "item": "minecraft:vine",
+                "count": 3
+            },
+            "max_uses": 4
+        },
+		{
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "palebloom"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald"
+            },
+            "output": {
+                "item": "palebloom:pale_hanging_moss",
                 "count": 3
             },
             "max_uses": 4
@@ -253,6 +314,23 @@
             },
             "output": {
                 "item": "da:moss_block",
+                "count": 2
+            },
+            "max_uses": 5
+        },
+		{
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "palebloom"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 1
+            },
+            "output": {
+                "item": "palebloom:pale_moss_block",
                 "count": 2
             },
             "max_uses": 5
@@ -403,6 +481,96 @@
             },
             "max_uses": 8,
             "duplicates": true
+        },
+		{
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 2
+            },
+            "output": {
+                "item": "minecraft:glowstone"
+            },
+            "max_uses": 5
+        },
+		{
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "output": {
+                "item": "oe:blue_coral_block"
+            },
+            "max_uses": 8
+        },
+		{
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "output": {
+                "item": "oe:pink_coral_block"
+            },
+            "max_uses": 8
+        },
+		{
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "output": {
+                "item": "oe:purple_coral_block"
+            },
+            "max_uses": 8
+        },
+		{
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "output": {
+                "item": "oe:red_coral_block"
+            },
+            "max_uses": 8
+        },
+		{
+            "conditions": [
+                {
+                    "condition": "mod_installed",
+                    "value": "oe"
+                }
+            ],
+            "item_1": {
+                "item": "minecraft:emerald",
+                "count": 3
+            },
+            "output": {
+                "item": "oe:yellow_coral_block"
+            },
+            "max_uses": 8
         }
     ]
 }
