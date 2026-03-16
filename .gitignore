@@ -25,6 +25,7 @@ servers.dat
 /local
 icon.png
 time.history
+/profileImage
 
 #Modernized-specific
 mods/Nether-API-v1.3.0-mc1.12.2.jar
