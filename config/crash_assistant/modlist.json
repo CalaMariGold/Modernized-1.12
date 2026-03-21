@@ -550,12 +550,12 @@
     "curseForgeHash": 2740281942,
     "modrinthHash": "f0bdbf6f4257e392e59023289998aaa8c295df47"
   },
-  "modularui-3.1.4.jar": {
-    "jarName": "modularui-3.1.4.jar",
+  "modularui-3.1.5.jar": {
+    "jarName": "modularui-3.1.5.jar",
     "modId": "modularui",
-    "version": "3.1.4",
-    "curseForgeHash": 3760010337,
-    "modrinthHash": "ee9fb13355ae0927f42bc268cd69de7f073dbbfd"
+    "version": "3.1.5",
+    "curseForgeHash": 3897925040,
+    "modrinthHash": "f03ffc6b97a6bcf4e3de920894db2142d48c63a9"
   },
   "MoreTweaker-1.0.19.jar": {
     "jarName": "MoreTweaker-1.0.19.jar",
@@ -906,12 +906,12 @@
     "curseForgeHash": 3724894852,
     "modrinthHash": "dece84febbf3d97b68421510e5037ba77b93e39b"
   },
-  "zenutils-1.26.17.jar": {
-    "jarName": "zenutils-1.26.17.jar",
+  "zenutils-1.26.18.jar": {
+    "jarName": "zenutils-1.26.18.jar",
     "modId": "zenutils",
-    "version": "1.26.17",
-    "curseForgeHash": 2950513414,
-    "modrinthHash": "d7fc3e89499c02be18dcb6ad2ccc1a7af401a2f7"
+    "version": "1.26.18",
+    "curseForgeHash": 383736035,
+    "modrinthHash": "5bdb9a2d2152635fc7c14c044cd341fa5971871e"
   },
   "zspacket-0.0.1.jar": {
     "jarName": "zspacket-0.0.1.jar",
