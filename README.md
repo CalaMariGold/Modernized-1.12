@@ -6,21 +6,21 @@ Check out the kitchen sink "ultimate edition" version of this pack: https://gith
 <p style="text-align: center;"><a href="https://github.com/CalaMariGold/Modernized-1.12" target="_blank" rel="nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/git_64h.png" alt="git" width="160" height="50" /></a> <a href="https://discord.gg/SX2YWmWDKQ" target="_blank" rel="nofollow noopener noreferrer"><img style="display: inline; margin-left: auto; margin-right: auto;" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_64h.png" alt="discord-plural" width="176" height="50" /></a> <a href="https://ko-fi.com/calamarigoldmodpacks" target="_blank" rel="nofollow noopener noreferrer"><img style="display: inline; margin-left: auto; margin-right: auto;" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/kofi-singular_64h.png" alt="kofi-singular" width="166" height="50" /></a></p>
 <p style="text-align: center;"><a href="https://docs.google.com/document/d/1UxXKZL6VM1y7t7XErz7cUEXX0JEJ_ntFB7A-NdE8Prk/edit?tab=t.0" target="_blank" rel="nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/gitbook_64h.png" alt="git" width="186" height="51" /></a> <a href="https://docs.google.com/document/d/1UxXKZL6VM1y7t7XErz7cUEXX0JEJ_ntFB7A-NdE8Prk/edit?tab=t.3wsoz3hyx2jm" target="_blank" rel="nofollow noopener noreferrer"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/19edca30bae6e859acdd48e56af406b84119ffc8/assets/cozy/documentation/changelog_64h.png" alt="" width="146" height="50" /></a></p>
 <p>&nbsp;</p>
-<h3 style="color: #36f;"><span style="font-size: 24px;">⭐ <strong>Summary</strong></span></h3>
+<h3 style="color: #36f;"><span style="font-size: 24px;"><strong>Summary</strong></span></h3>
 <p style="font-size: 15px; line-height: 1.6;"><strong>Modernized 1.12</strong> is your all-in-one solution for bringing Minecraft 1.12.2 into 2026! Whether you're a player seeking the cleanest vanilla+ experience or a modpack developer looking for the perfect foundation, this pack delivers with full performance optimizations, Java 25 compatibility, extensive QoL improvements, and a complete development toolkit.</p>
-<h3 style="color: #36f;"><span style="font-size: 24px;">💫 <strong>Our Philosophy</strong></span></h3>
-<p style="font-size: 15px; line-height: 1.8;">This <strong><em>is not</em></strong> another backport modpack. We believe Minecraft 1.12 represents a golden era of the game, with a perfect balance of content, performance, and charm. While newer versions of Minecraft have taken different directions, we're preserving and enhancing what made 1.12 special. We also fully believe 1.12 is the easiest version to start modpack development and completely change how the game works from the ground up, especially with this template modpack to get you started!<br /><strong>We're building upon what made this version great, not trying to turn it into something it's not.</strong></p>
-<h3 style="color: #36f;"><span style="font-size: 24px;">📜&nbsp;<strong>License</strong></span></h3>
+<h3 style="color: #36f;"><span style="font-size: 24px;"><strong>Our Philosophy</strong></span></h3>
+<p style="font-size: 15px; line-height: 1.8;">This <strong><em>is not</em></strong> another backport modpack. We believe Minecraft 1.12 represents a golden era of the game, with a perfect balance of content, performance, and charm. While newer versions of Minecraft have taken different directions, we're preserving and enhancing what made 1.12 special. We also fully believe 1.12 is the easiest version to start modpack development and completely change how the game works from the ground up, especially with this template modpack to get you started!</p>
+<h3 style="color: #36f;"><span style="font-size: 24px;"><strong>License</strong></span></h3>
 <p style="font-size: 15px; line-height: 1.6;">You may use any part of this modpack for your own projects, including copying/modifying our mods list, configs and scripts.<br />However, <strong>we highly prefer you credit this modpack</strong> on your project page and keep your project open source for the betterment of the 1.12 community!&nbsp;Be sure to follow the licenses for individual mods as well!</p>
-<h4 style="color: #36f;">✨ What We Include</h4>
+<h4 style="color: #36f;">📃 What We Include</h4>
 <p>✓ Modern performance improvements<br />✓ Quality of life features<br />✓ Carefully selected backports<br />✓ Enhanced vanilla mechanics</p>
-<h4 style="color: #36f;">🎯 What We Avoid</h4>
+<h4 style="color: #36f;">❌ What We Avoid</h4>
 <p>✗ Features that break game balance or are bloat<br />✗ Mechanics that feel out of place<br />✗ Modern Minecraft's complexity creep<br />✗ Changes that alter 1.12's core feel</p>
 <h4 style="color: #ff8848;">👨&zwj;💻 Perfect for Developers</h4>
 <p>✓ Starting new modpack projects<br />✓ Modpack jam participants<br />✓ Content creators</p>
 <h4 style="color: #ff8848;">🎮 Perfect for Players:</h4>
 <p>✓ Seeking vanilla+ experience<br />✓ Performance enthusiasts<br />✓ Server admins</p>
-<h2 style="color: #1976d2;">✅&nbsp;<strong>Included Features</strong></h2>
+<h2 style="color: #1976d2;"><strong>All Features</strong></h2>
 <p><span style="color: #1976d2; font-size: 18px;">━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span></p>
 <h3>📔<strong> Full Development/Compatibility Guide</strong></h3>
 <p style="color: #0431e7;"><a href="https://docs.google.com/document/d/1UxXKZL6VM1y7t7XErz7cUEXX0JEJ_ntFB7A-NdE8Prk/edit?tab=t.0#heading=h.d57i1628ea72" target="_blank" rel="nofollow noopener noreferrer"><strong>► Click here to view development guide! ◄</strong></a></p>
@@ -69,7 +69,7 @@ Check out the kitchen sink "ultimate edition" version of this pack: https://gith
 <p><strong>4) Java 25 and Cleanroom Loader will auto-download, just click next/finish if prompted</strong></p>
 <p><strong>5) That's it!</strong></p>
 <p>&nbsp;</p>
-<h2 style="color: #1976d2;"><strong>📜 Scripting &amp; Customization</strong></h2>
+<h2 style="color: #1976d2;"><strong>Scripting &amp; Customization</strong></h2>
 <p><span style="color: #1976d2; font-size: 18px;">━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span></p>
 <p style="font-size: 16px; line-height: 1.6;">Comprehensive example scripts with detailed comments for every aspect of modpack development. Our example scripts are designed to teach you everything from basics to advanced techniques.</p>
 <h4 style="color: #1976d2;">🔄 Events &amp; Automation</h4>
